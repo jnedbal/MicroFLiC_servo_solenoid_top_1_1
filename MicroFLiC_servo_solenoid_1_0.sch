@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:MicroFLiC_servo_solenoid_1_0-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -499,19 +500,19 @@ F 6 "2073603" V 2150 6100 60  0001 C CNN "Order Code"
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2400 6100 2500 6100
+	2300 6100 2500 6100
 Wire Wire Line
 	2500 6100 2500 6300
 Wire Wire Line
-	2500 6300 2400 6300
+	2500 6300 2300 6300
 Connection ~ 2500 6200
 Wire Wire Line
-	1900 6100 1400 6100
+	2000 6100 1500 6100
 Wire Wire Line
-	1900 6300 1400 6300
-Text Label 1500 6100 0    60   ~ 0
+	2000 6300 1500 6300
+Text Label 1600 6100 0    60   ~ 0
 SERVO1
-Text Label 1500 6300 0    60   ~ 0
+Text Label 1600 6300 0    60   ~ 0
 SERVO3
 Text Label 2600 7100 0    60   ~ 0
 SERVOB
@@ -562,19 +563,19 @@ $EndComp
 Wire Wire Line
 	3000 7000 3000 7200
 Wire Wire Line
-	2400 7000 2500 7000
+	2300 7000 2500 7000
 Wire Wire Line
 	2500 7000 2500 7200
 Wire Wire Line
-	2500 7200 2400 7200
+	2500 7200 2300 7200
 Connection ~ 2500 7100
 Wire Wire Line
-	1900 7000 1400 7000
+	2000 7000 1500 7000
 Wire Wire Line
-	1900 7200 1400 7200
-Text Label 1500 7000 0    60   ~ 0
+	2000 7200 1500 7200
+Text Label 1600 7000 0    60   ~ 0
 SERVO2
-Text Label 1500 7200 0    60   ~ 0
+Text Label 1600 7200 0    60   ~ 0
 SERVO4
 $Comp
 L CONN_01X06 P8
