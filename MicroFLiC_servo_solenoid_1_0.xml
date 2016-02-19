@@ -2,8 +2,8 @@
 <export version="D">
   <design>
     <source>/home/jakub/KiCAD/MicroFLiC_servo_solenoid_1_0/MicroFLiC_servo_solenoid_1_0.sch</source>
-    <date>Wed 05 Aug 2015 20:57:03 BST</date>
-    <tool>Eeschema (2015-03-02 BZR 5466)-product</tool>
+    <date>Thu 04 Feb 2016 11:16:45 GMT</date>
+    <tool>Eeschema 4.0.1-3.201512221402+6198~38~ubuntu14.04.1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Flow Unit Shield</title>
@@ -47,7 +47,7 @@
   <components>
     <comp ref="P10">
       <value>Socket_1x4</value>
-      <footprint>Pin_Headers:Pin_Header_Straight_1x04</footprint>
+      <footprint>jakub:ESQ-104-33-G-S</footprint>
       <fields>
         <field name="Part Number">ESQ-104-33-G-S</field>
         <field name="Manufacturer">Samtec</field>
@@ -85,9 +85,9 @@
       <value>Header_1x14</value>
       <footprint>Pin_Headers:Pin_Header_Straight_1x14</footprint>
       <fields>
-        <field name="Part Number">HTSW-114-15-G-S</field>
-        <field name="Manufacturer">Samtec</field>
-        <field name="Order Code">2010798</field>
+        <field name="Part Number">MC34735</field>
+        <field name="Manufacturer">Multicomp</field>
+        <field name="Order Code">1593421</field>
       </fields>
       <libsource lib="conn" part="CONN_01X14"/>
       <sheetpath names="/" tstamps="/"/>
@@ -167,7 +167,7 @@
     </comp>
     <comp ref="P8">
       <value>Socket_1x6</value>
-      <footprint>Pin_Headers:Pin_Header_Straight_1x06</footprint>
+      <footprint>jakub:ESQ-106-33-G-S</footprint>
       <fields>
         <field name="Part Number">ESQ-106-33-G-S</field>
         <field name="Manufacturer">Samtec</field>
@@ -281,17 +281,17 @@
         <field name="Manufacturer">NXP</field>
         <field name="Order Code">8737940</field>
       </fields>
-      <libsource lib="device" part="DIODESCH"/>
+      <libsource lib="MicroFLiC_servo_solenoid_1_0-cache" part="DIODESCH"/>
       <sheetpath names="/shutterPWM/" tstamps="/54E08E01/"/>
       <tstamp>554638EE</tstamp>
     </comp>
     <comp ref="C6">
-      <value>10u/25V</value>
+      <value>4u7/25V</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
-        <field name="Part Number">GRM219R61E106KA12D</field>
+        <field name="Part Number">GRM21BR61E475MA12L</field>
         <field name="Manufacturer">Murata</field>
-        <field name="Order Code">2426961</field>
+        <field name="Order Code">2362111</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/shutterPWM/" tstamps="/54E08E01/"/>
@@ -346,7 +346,7 @@
       <tstamp>5567D385</tstamp>
     </comp>
     <comp ref="D1">
-      <value>YELLOW</value>
+      <value>RED</value>
       <footprint>LEDs:LED-1206</footprint>
       <fields>
         <field name="Part Number">SML-LX1206IW-TR</field>
@@ -358,12 +358,12 @@
       <tstamp>5567D38B</tstamp>
     </comp>
     <comp ref="D3">
-      <value>RED</value>
+      <value>YELLOW</value>
       <footprint>LEDs:LED-1206</footprint>
       <fields>
-        <field name="Part Number">LYN971-Z</field>
-        <field name="Manufacturer">Osram</field>
-        <field name="Order Code">1226417</field>
+        <field name="Part Number">HSMY-C150</field>
+        <field name="Manufacturer">Avago</field>
+        <field name="Order Code">8554773</field>
       </fields>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/shutterPWM/" tstamps="/54E08E01/"/>
@@ -389,33 +389,9 @@
         <field name="Manufacturer">NXP</field>
         <field name="Order Code">8737940</field>
       </fields>
-      <libsource lib="device" part="DIODESCH"/>
+      <libsource lib="MicroFLiC_servo_solenoid_1_0-cache" part="DIODESCH"/>
       <sheetpath names="/shutterPWM/" tstamps="/54E08E01/"/>
       <tstamp>556A57E4</tstamp>
-    </comp>
-    <comp ref="D2">
-      <value>YELLOW</value>
-      <footprint>LEDs:LED-1206</footprint>
-      <fields>
-        <field name="Part Number">SML-LX1206IW-TR</field>
-        <field name="Manufacturer">Lumex</field>
-        <field name="Order Code">2062231</field>
-      </fields>
-      <libsource lib="device" part="LED"/>
-      <sheetpath names="/shutterPWM/" tstamps="/54E08E01/"/>
-      <tstamp>556A581F</tstamp>
-    </comp>
-    <comp ref="D4">
-      <value>RED</value>
-      <footprint>LEDs:LED-1206</footprint>
-      <fields>
-        <field name="Part Number">LYN971-Z</field>
-        <field name="Manufacturer">Osram</field>
-        <field name="Order Code">1226417</field>
-      </fields>
-      <libsource lib="device" part="LED"/>
-      <sheetpath names="/shutterPWM/" tstamps="/54E08E01/"/>
-      <tstamp>556A5827</tstamp>
     </comp>
     <comp ref="P12">
       <value>Header_R/A_2x3</value>
@@ -586,12 +562,12 @@
       <tstamp>55C10BB7</tstamp>
     </comp>
     <comp ref="C7">
-      <value>10u/25V</value>
+      <value>4u7/25V</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
-        <field name="Part Number">GRM219R61E106KA12D</field>
+        <field name="Part Number">GRM21BR61E475MA12L</field>
         <field name="Manufacturer">Murata</field>
-        <field name="Order Code">2426961</field>
+        <field name="Order Code">2362111</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/shutterPWM/" tstamps="/54E08E01/"/>
@@ -633,14 +609,40 @@
       <sheetpath names="/shutterPWM/" tstamps="/54E08E01/"/>
       <tstamp>55C2DF41</tstamp>
     </comp>
+    <comp ref="D2">
+      <value>RED</value>
+      <footprint>LEDs:LED-1206</footprint>
+      <fields>
+        <field name="Part Number">SML-LX1206IW-TR</field>
+        <field name="Manufacturer">Lumex</field>
+        <field name="Order Code">2062231</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/shutterPWM/" tstamps="/54E08E01/"/>
+      <tstamp>5668AFDE</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>YELLOW</value>
+      <footprint>LEDs:LED-1206</footprint>
+      <fields>
+        <field name="Part Number">HSMY-C150</field>
+        <field name="Manufacturer">Avago</field>
+        <field name="Order Code">8554773</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/shutterPWM/" tstamps="/54E08E01/"/>
+      <tstamp>5668B297</tstamp>
+    </comp>
   </components>
   <libparts>
     <libpart lib="device" part="C">
-      <description>Condensateur non polarise</description>
+      <description>Unpolarized capacitor</description>
       <footprints>
-        <fp>SM*</fp>
         <fp>C?</fp>
-        <fp>C1-1</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
       </footprints>
       <fields>
         <field name="Reference">C</field>
@@ -649,6 +651,137 @@
       <pins>
         <pin num="1" name="~" type="passive"/>
         <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X04">
+      <description>Connector 01x04</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X04</fp>
+        <fp>Pin_Header_Angled_1X04</fp>
+        <fp>Socket_Strip_Straight_1X04</fp>
+        <fp>Socket_Strip_Angled_1X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X06">
+      <description>Connector 01x06</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X06</fp>
+        <fp>Pin_Header_Angled_1X06</fp>
+        <fp>Socket_Strip_Straight_1X06</fp>
+        <fp>Socket_Strip_Angled_1X06</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X14">
+      <description>Connector 01x14</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X14</fp>
+        <fp>Pin_Header_Angled_1X14</fp>
+        <fp>Socket_Strip_Straight_1X14</fp>
+        <fp>Socket_Strip_Angled_1X14</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X14</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+        <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X03">
+      <description>Connector 02x03</description>
+      <footprints>
+        <fp>Pin_Header_Straight_2X03</fp>
+        <fp>Pin_Header_Angled_2X03</fp>
+        <fp>Socket_Strip_Straight_2X03</fp>
+        <fp>Socket_Strip_Angled_2X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X06">
+      <description>Connector 02x06</description>
+      <footprints>
+        <fp>Pin_Header_Straight_2X06</fp>
+        <fp>Pin_Header_Angled_2X06</fp>
+        <fp>Socket_Strip_Straight_2X06</fp>
+        <fp>Socket_Strip_Angled_2X06</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MicroFLiC_servo_solenoid_1_0-cache" part="DIODESCH">
+      <footprints>
+        <fp>D?</fp>
+        <fp>S*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODESCH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="jakub" part="DRV103">
@@ -679,6 +812,25 @@
         <pin num="1" name="~" type="passive"/>
         <pin num="2" name="~" type="passive"/>
         <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="jakub" part="MCP4728">
@@ -716,6 +868,21 @@
         <pin num="8" name="EN" type="input"/>
       </pins>
     </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="jakub" part="RCA_3">
       <fields>
         <field name="Reference">J</field>
@@ -727,309 +894,148 @@
         <pin num="3" name="3" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="R">
-      <description>Resistance</description>
-      <footprints>
-        <fp>R?</fp>
-        <fp>SM0603</fp>
-        <fp>SM0805</fp>
-        <fp>R?-*</fp>
-        <fp>SM1206</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="DIODESCH">
-      <description>Diode schottky</description>
-      <footprints>
-        <fp>D?</fp>
-        <fp>S*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">DIODESCH</field>
-      </fields>
-      <pins>
-        <pin num="1" name="A" type="passive"/>
-        <pin num="2" name="K" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="LED">
-      <footprints>
-        <fp>LED-3MM</fp>
-        <fp>LED-5MM</fp>
-        <fp>LED-10MM</fp>
-        <fp>LED-0603</fp>
-        <fp>LED-0805</fp>
-        <fp>LED-1206</fp>
-        <fp>LEDV</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">LED</field>
-      </fields>
-      <pins>
-        <pin num="1" name="A" type="passive"/>
-        <pin num="2" name="K" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="CONN_01X04">
-      <footprints>
-        <fp>Pin_Header_Straight_1X04</fp>
-        <fp>Pin_Header_Angled_1X04</fp>
-        <fp>Socket_Strip_Straight_1X04</fp>
-        <fp>Socket_Strip_Angled_1X04</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_01X04</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="P2" type="passive"/>
-        <pin num="3" name="P3" type="passive"/>
-        <pin num="4" name="P4" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="CONN_01X06">
-      <footprints>
-        <fp>Pin_Header_Straight_1X06</fp>
-        <fp>Pin_Header_Angled_1X06</fp>
-        <fp>Socket_Strip_Straight_1X06</fp>
-        <fp>Socket_Strip_Angled_1X06</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_01X06</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="P2" type="passive"/>
-        <pin num="3" name="P3" type="passive"/>
-        <pin num="4" name="P4" type="passive"/>
-        <pin num="5" name="P5" type="passive"/>
-        <pin num="6" name="P6" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="CONN_01X14">
-      <footprints>
-        <fp>Pin_Header_Straight_1X14</fp>
-        <fp>Pin_Header_Angled_1X14</fp>
-        <fp>Socket_Strip_Straight_1X14</fp>
-        <fp>Socket_Strip_Angled_1X14</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_01X14</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="P2" type="passive"/>
-        <pin num="3" name="P3" type="passive"/>
-        <pin num="4" name="P4" type="passive"/>
-        <pin num="5" name="P5" type="passive"/>
-        <pin num="6" name="P6" type="passive"/>
-        <pin num="7" name="P7" type="passive"/>
-        <pin num="8" name="P8" type="passive"/>
-        <pin num="9" name="P9" type="passive"/>
-        <pin num="10" name="P10" type="passive"/>
-        <pin num="11" name="P11" type="passive"/>
-        <pin num="12" name="P12" type="passive"/>
-        <pin num="13" name="P13" type="passive"/>
-        <pin num="14" name="P14" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="CONN_02X03">
-      <footprints>
-        <fp>Pin_Header_Straight_2X03</fp>
-        <fp>Pin_Header_Angled_2X03</fp>
-        <fp>Socket_Strip_Straight_2X03</fp>
-        <fp>Socket_Strip_Angled_2X03</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_02X03</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="P2" type="passive"/>
-        <pin num="3" name="P3" type="passive"/>
-        <pin num="4" name="P4" type="passive"/>
-        <pin num="5" name="P5" type="passive"/>
-        <pin num="6" name="P6" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="CONN_02X06">
-      <footprints>
-        <fp>Pin_Header_Straight_2X06</fp>
-        <fp>Pin_Header_Angled_2X06</fp>
-        <fp>Socket_Strip_Straight_2X06</fp>
-        <fp>Socket_Strip_Angled_2X06</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_02X06</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="P2" type="passive"/>
-        <pin num="3" name="P3" type="passive"/>
-        <pin num="4" name="P4" type="passive"/>
-        <pin num="5" name="P5" type="passive"/>
-        <pin num="6" name="P6" type="passive"/>
-        <pin num="7" name="P7" type="passive"/>
-        <pin num="8" name="P8" type="passive"/>
-        <pin num="9" name="P9" type="passive"/>
-        <pin num="10" name="P10" type="passive"/>
-        <pin num="11" name="P11" type="passive"/>
-        <pin num="12" name="P12" type="passive"/>
-      </pins>
-    </libpart>
   </libparts>
   <libraries>
-    <library logical="conn">
-      <uri>/usr/local/share/kicad/library/conn.lib</uri>
-    </library>
     <library logical="jakub">
       <uri>/home/jakub/KiCAD/share/library/contrib/jakub/jakub.lib</uri>
     </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="MicroFLiC_servo_solenoid_1_0-cache">
+      <uri>/home/jakub/KiCAD/MicroFLiC_servo_solenoid_1_0/MicroFLiC_servo_solenoid_1_0-cache.lib</uri>
+    </library>
     <library logical="device">
-      <uri>/usr/local/share/kicad/library/device.lib</uri>
+      <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
   </libraries>
   <nets>
     <net code="1" name="+2V5">
-      <node ref="P1" pin="6"/>
+      <node ref="P1" pin="5"/>
       <node ref="P11" pin="2"/>
       <node ref="P12" pin="2"/>
-      <node ref="P1" pin="5"/>
+      <node ref="P1" pin="6"/>
       <node ref="P2" pin="6"/>
       <node ref="P2" pin="5"/>
     </net>
     <net code="2" name="+3V3">
-      <node ref="P2" pin="13"/>
       <node ref="P1" pin="13"/>
       <node ref="U1" pin="2"/>
+      <node ref="P2" pin="13"/>
     </net>
     <net code="3" name="+12V">
-      <node ref="P1" pin="1"/>
-      <node ref="P1" pin="2"/>
-      <node ref="P2" pin="2"/>
-      <node ref="P12" pin="6"/>
       <node ref="R15" pin="2"/>
-      <node ref="P2" pin="1"/>
-      <node ref="C4" pin="2"/>
-      <node ref="U2" pin="6"/>
-      <node ref="U3" pin="6"/>
-      <node ref="C5" pin="2"/>
-      <node ref="P11" pin="6"/>
-      <node ref="R18" pin="2"/>
       <node ref="R16" pin="2"/>
       <node ref="R17" pin="2"/>
+      <node ref="P2" pin="1"/>
+      <node ref="P2" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="R18" pin="2"/>
+      <node ref="P11" pin="6"/>
+      <node ref="U3" pin="6"/>
+      <node ref="P1" pin="1"/>
+      <node ref="P1" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="U2" pin="6"/>
+      <node ref="P12" pin="6"/>
     </net>
     <net code="4" name="/shutterPWM/SH4_PWM">
-      <node ref="P8" pin="2"/>
       <node ref="U4" pin="9"/>
       <node ref="R12" pin="2"/>
+      <node ref="P8" pin="2"/>
     </net>
     <net code="5" name="+5VP">
-      <node ref="P2" pin="9"/>
-      <node ref="P2" pin="10"/>
-      <node ref="P1" pin="10"/>
-      <node ref="P1" pin="9"/>
-      <node ref="P4" pin="3"/>
-      <node ref="C8" pin="2"/>
-      <node ref="U4" pin="1"/>
-      <node ref="P11" pin="4"/>
       <node ref="P12" pin="4"/>
-      <node ref="U1" pin="8"/>
-      <node ref="U1" pin="7"/>
-      <node ref="C1" pin="1"/>
       <node ref="P5" pin="3"/>
+      <node ref="U4" pin="1"/>
+      <node ref="P4" pin="3"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U1" pin="7"/>
+      <node ref="U1" pin="8"/>
+      <node ref="C8" pin="2"/>
+      <node ref="P1" pin="9"/>
+      <node ref="P1" pin="10"/>
+      <node ref="P11" pin="4"/>
+      <node ref="P2" pin="10"/>
+      <node ref="P2" pin="9"/>
     </net>
     <net code="6" name="GND">
-      <node ref="U3" pin="4"/>
-      <node ref="U3" pin="9"/>
-      <node ref="P2" pin="4"/>
-      <node ref="P1" pin="3"/>
-      <node ref="P1" pin="4"/>
+      <node ref="U1" pin="1"/>
+      <node ref="P2" pin="14"/>
       <node ref="P1" pin="7"/>
-      <node ref="P1" pin="8"/>
+      <node ref="P1" pin="12"/>
+      <node ref="P1" pin="4"/>
+      <node ref="P1" pin="3"/>
       <node ref="P1" pin="11"/>
-      <node ref="P2" pin="11"/>
+      <node ref="P2" pin="12"/>
       <node ref="P2" pin="8"/>
       <node ref="P2" pin="7"/>
-      <node ref="U1" pin="1"/>
-      <node ref="P1" pin="12"/>
-      <node ref="P1" pin="14"/>
+      <node ref="P2" pin="4"/>
+      <node ref="P2" pin="11"/>
       <node ref="P2" pin="3"/>
-      <node ref="C3" pin="1"/>
-      <node ref="C1" pin="2"/>
-      <node ref="C6" pin="1"/>
-      <node ref="C4" pin="1"/>
-      <node ref="R13" pin="1"/>
-      <node ref="C2" pin="1"/>
       <node ref="U2" pin="4"/>
-      <node ref="C5" pin="1"/>
-      <node ref="R14" pin="1"/>
+      <node ref="P1" pin="14"/>
+      <node ref="C1" pin="2"/>
+      <node ref="P1" pin="8"/>
+      <node ref="C3" pin="1"/>
       <node ref="C7" pin="1"/>
-      <node ref="U2" pin="9"/>
-      <node ref="U4" pin="10"/>
-      <node ref="C8" pin="1"/>
-      <node ref="P2" pin="14"/>
-      <node ref="P2" pin="12"/>
-      <node ref="P4" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U3" pin="4"/>
       <node ref="P5" pin="1"/>
+      <node ref="U3" pin="9"/>
+      <node ref="R14" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U2" pin="9"/>
+      <node ref="R13" pin="1"/>
+      <node ref="P4" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U4" pin="10"/>
+      <node ref="C6" pin="1"/>
     </net>
     <net code="7" name="/SERVO2">
-      <node ref="P3" pin="4"/>
       <node ref="R3" pin="1"/>
+      <node ref="P3" pin="4"/>
     </net>
     <net code="8" name="/SERVO4">
-      <node ref="R4" pin="1"/>
       <node ref="P3" pin="2"/>
+      <node ref="R4" pin="1"/>
       <node ref="P8" pin="6"/>
     </net>
     <net code="9" name="/shutterPWM/SH3_PWM">
+      <node ref="P8" pin="1"/>
       <node ref="U4" pin="8"/>
       <node ref="R10" pin="2"/>
-      <node ref="P8" pin="1"/>
     </net>
     <net code="10" name="/SERVO3">
-      <node ref="P8" pin="5"/>
       <node ref="P3" pin="1"/>
+      <node ref="P8" pin="5"/>
       <node ref="R2" pin="1"/>
     </net>
     <net code="11" name="/shutterPWM/SH3">
-      <node ref="P8" pin="3"/>
-      <node ref="P3" pin="5"/>
       <node ref="R9" pin="2"/>
+      <node ref="P3" pin="5"/>
+      <node ref="P8" pin="3"/>
     </net>
     <net code="12" name="/shutterPWM/SH4">
-      <node ref="P8" pin="4"/>
       <node ref="R11" pin="2"/>
       <node ref="P3" pin="6"/>
+      <node ref="P8" pin="4"/>
     </net>
     <net code="13" name="/SERVO1">
       <node ref="R1" pin="1"/>
       <node ref="P3" pin="3"/>
     </net>
     <net code="14" name="/SERVOB">
-      <node ref="R3" pin="2"/>
       <node ref="P5" pin="2"/>
       <node ref="R4" pin="2"/>
+      <node ref="R3" pin="2"/>
     </net>
     <net code="15" name="/I2C/SCL_5V">
       <node ref="P10" pin="1"/>
+      <node ref="P9" pin="1"/>
       <node ref="U4" pin="2"/>
       <node ref="U1" pin="6"/>
-      <node ref="P9" pin="1"/>
     </net>
     <net code="16" name="Net-(P7-Pad3)">
       <node ref="P7" pin="3"/>
@@ -1037,64 +1043,64 @@
     <net code="17" name="Net-(P6-Pad3)">
       <node ref="P6" pin="3"/>
     </net>
-    <net code="18" name="/shutterPWM/SHB_PWR">
-      <node ref="P12" pin="5"/>
-      <node ref="P12" pin="3"/>
-      <node ref="P12" pin="1"/>
+    <net code="18" name="/shutterPWM/SHA_PWR">
+      <node ref="P11" pin="1"/>
+      <node ref="P11" pin="3"/>
+      <node ref="P11" pin="5"/>
+      <node ref="D5" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="P6" pin="2"/>
+    </net>
+    <net code="19" name="/shutterPWM/SHB_PWR">
       <node ref="P7" pin="2"/>
       <node ref="C7" pin="2"/>
       <node ref="D6" pin="2"/>
+      <node ref="P12" pin="1"/>
+      <node ref="P12" pin="3"/>
+      <node ref="P12" pin="5"/>
     </net>
-    <net code="19" name="/I2C/SDA_5V">
-      <node ref="P9" pin="2"/>
-      <node ref="P10" pin="2"/>
-      <node ref="U4" pin="3"/>
-      <node ref="U1" pin="5"/>
-    </net>
-    <net code="20" name="/SERVOA">
-      <node ref="R2" pin="2"/>
-      <node ref="R1" pin="2"/>
-      <node ref="P4" pin="2"/>
-    </net>
-    <net code="21" name="/shutterPWM/SH2">
-      <node ref="P3" pin="8"/>
+    <net code="20" name="/shutterPWM/SH2">
       <node ref="R7" pin="1"/>
+      <node ref="P3" pin="8"/>
     </net>
-    <net code="22" name="/shutterPWM/SH_~LDAC">
+    <net code="21" name="/I2C/SDA_5V">
+      <node ref="U1" pin="5"/>
+      <node ref="P9" pin="2"/>
+      <node ref="U4" pin="3"/>
+      <node ref="P10" pin="2"/>
+    </net>
+    <net code="22" name="/SERVOA">
+      <node ref="P4" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="23" name="/shutterPWM/SH_~LDAC">
       <node ref="R19" pin="1"/>
       <node ref="P3" pin="9"/>
     </net>
-    <net code="23" name="/shutterPWM/SHA_O/C">
-      <node ref="P6" pin="1"/>
-      <node ref="U2" pin="5"/>
-      <node ref="D3" pin="2"/>
+    <net code="24" name="/shutterPWM/SHA_O/C">
+      <node ref="D3" pin="1"/>
       <node ref="D5" pin="1"/>
+      <node ref="U2" pin="5"/>
+      <node ref="P6" pin="1"/>
     </net>
-    <net code="24" name="/shutterPWM/SHB_O/C">
-      <node ref="U3" pin="5"/>
-      <node ref="D4" pin="2"/>
-      <node ref="D6" pin="1"/>
+    <net code="25" name="/shutterPWM/SHB_O/C">
+      <node ref="D4" pin="1"/>
       <node ref="P7" pin="1"/>
+      <node ref="U3" pin="5"/>
+      <node ref="D6" pin="1"/>
     </net>
-    <net code="25" name="/I2C/SDA_3V3">
-      <node ref="P3" pin="12"/>
+    <net code="26" name="/I2C/SDA_3V3">
       <node ref="U1" pin="4"/>
       <node ref="P10" pin="3"/>
+      <node ref="P3" pin="12"/>
       <node ref="P9" pin="3"/>
     </net>
-    <net code="26" name="/I2C/SCL_3V3">
-      <node ref="P3" pin="11"/>
+    <net code="27" name="/I2C/SCL_3V3">
       <node ref="P9" pin="4"/>
       <node ref="U1" pin="3"/>
+      <node ref="P3" pin="11"/>
       <node ref="P10" pin="4"/>
-    </net>
-    <net code="27" name="/shutterPWM/SHA_PWR">
-      <node ref="P11" pin="3"/>
-      <node ref="P11" pin="5"/>
-      <node ref="P6" pin="2"/>
-      <node ref="P11" pin="1"/>
-      <node ref="C6" pin="2"/>
-      <node ref="D5" pin="2"/>
     </net>
     <net code="28" name="/shutterPWM/SH1">
       <node ref="R5" pin="1"/>
@@ -1103,69 +1109,69 @@
     <net code="29" name="Net-(P3-Pad10)">
       <node ref="P3" pin="10"/>
     </net>
-    <net code="30" name="/shutterPWM/FB">
-      <node ref="R18" pin="1"/>
-      <node ref="D4" pin="1"/>
-    </net>
-    <net code="31" name="/shutterPWM/EB">
+    <net code="30" name="/shutterPWM/EB">
       <node ref="R16" pin="1"/>
-      <node ref="D2" pin="1"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="31" name="/shutterPWM/FB">
+      <node ref="R18" pin="1"/>
+      <node ref="D4" pin="2"/>
     </net>
     <net code="32" name="/shutterPWM/SHB_IN">
-      <node ref="U3" pin="8"/>
-      <node ref="R7" pin="2"/>
       <node ref="R11" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="U3" pin="8"/>
     </net>
-    <net code="33" name="/shutterPWM/OB">
+    <net code="33" name="/shutterPWM/SHB_PWM">
+      <node ref="R8" pin="2"/>
+      <node ref="R12" pin="1"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="34" name="Net-(R19-Pad2)">
+      <node ref="R19" pin="2"/>
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="35" name="/shutterPWM/ENG_B">
+      <node ref="D2" pin="1"/>
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="36" name="/shutterPWM/FA">
+      <node ref="R17" pin="1"/>
+      <node ref="D3" pin="2"/>
+    </net>
+    <net code="37" name="/shutterPWM/EA">
+      <node ref="D1" pin="2"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="38" name="/shutterPWM/OB">
       <node ref="U3" pin="3"/>
       <node ref="R14" pin="2"/>
     </net>
-    <net code="34" name="Net-(R19-Pad2)">
-      <node ref="U4" pin="4"/>
-      <node ref="R19" pin="2"/>
-    </net>
-    <net code="35" name="/shutterPWM/DB">
-      <node ref="C3" pin="2"/>
+    <net code="39" name="/shutterPWM/DB">
       <node ref="U3" pin="2"/>
+      <node ref="C3" pin="2"/>
     </net>
-    <net code="36" name="/shutterPWM/ENG_B">
-      <node ref="D2" pin="2"/>
-      <node ref="U3" pin="7"/>
-    </net>
-    <net code="37" name="/shutterPWM/SH2_PWM">
+    <net code="40" name="/shutterPWM/SH2_PWM">
       <node ref="R8" pin="1"/>
       <node ref="U4" pin="7"/>
     </net>
-    <net code="38" name="/shutterPWM/SHB_PWM">
-      <node ref="U3" pin="1"/>
-      <node ref="R12" pin="1"/>
-      <node ref="R8" pin="2"/>
-    </net>
-    <net code="39" name="/shutterPWM/SH1_PWM">
-      <node ref="R6" pin="1"/>
+    <net code="41" name="/shutterPWM/SH1_PWM">
       <node ref="U4" pin="6"/>
-    </net>
-    <net code="40" name="/shutterPWM/FA">
-      <node ref="R17" pin="1"/>
-      <node ref="D3" pin="1"/>
-    </net>
-    <net code="41" name="/shutterPWM/EA">
-      <node ref="D1" pin="1"/>
-      <node ref="R15" pin="1"/>
+      <node ref="R6" pin="1"/>
     </net>
     <net code="42" name="Net-(U4-Pad5)">
       <node ref="U4" pin="5"/>
     </net>
     <net code="43" name="/shutterPWM/OA">
-      <node ref="R13" pin="2"/>
       <node ref="U2" pin="3"/>
+      <node ref="R13" pin="2"/>
     </net>
     <net code="44" name="/shutterPWM/DA">
       <node ref="C2" pin="2"/>
       <node ref="U2" pin="2"/>
     </net>
     <net code="45" name="/shutterPWM/ENG_A">
-      <node ref="D1" pin="2"/>
+      <node ref="D1" pin="1"/>
       <node ref="U2" pin="7"/>
     </net>
     <net code="46" name="/shutterPWM/SHA_PWM">

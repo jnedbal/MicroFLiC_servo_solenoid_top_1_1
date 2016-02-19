@@ -206,9 +206,9 @@ F 0 "P1" H 1300 2700 50  0000 C CNN
 F 1 "Header_1x14" V 1400 1950 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x14" H 1300 1950 60  0001 C CNN
 F 3 "" H 1300 1950 60  0000 C CNN
-F 4 "HTSW-114-15-G-S" H 1300 1950 60  0001 C CNN "Part Number"
-F 5 "Samtec" H 1300 1950 60  0001 C CNN "Manufacturer"
-F 6 "2010798" H 1300 1950 60  0001 C CNN "Order Code"
+F 4 "MC34735" H 1300 1950 60  0001 C CNN "Part Number"
+F 5 "Multicomp" H 1300 1950 60  0001 C CNN "Manufacturer"
+F 6 "1593421" H 1300 1950 60  0001 C CNN "Order Code"
 	1    1300 1950
 	-1   0    0    -1  
 $EndComp
