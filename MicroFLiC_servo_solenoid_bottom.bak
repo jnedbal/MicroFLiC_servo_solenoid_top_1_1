@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:MicroFLiC_servo_solenoid_1_0-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -31,7 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:jakub
-LIBS:MicroFLiC_servo_solenoid_1_0-cache
+LIBS:MicroFLiC_servo_solenoid-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -75,12 +74,17 @@ L CONN_01X04 P10
 U 1 1 54DF35DA
 P 8400 5550
 F 0 "P10" H 8400 5800 50  0000 C CNN
-F 1 "Socket_1x4" V 8500 5550 50  0000 C CNN
+F 1 "1x4 socket strip" V 8500 5550 50  0000 C CNN
 F 2 "jakub:ESQ-104-33-G-S" H 8400 5550 60  0001 C CNN
 F 3 "" H 8400 5550 60  0000 C CNN
 F 4 "ESQ-104-33-G-S" H 8400 5550 60  0001 C CNN "Part Number"
 F 5 "Samtec" H 8400 5550 60  0001 C CNN "Manufacturer"
-F 6 "1928522" H 8400 5550 60  0001 C CNN "Order Code"
+F 6 "SIL-4" H 8400 5550 60  0001 C CNN "Package"
+F 7 "Farnell" H 8400 5550 60  0001 C CNN "Supplier"
+F 8 "1928522" H 8400 5550 60  0001 C CNN "Order Code"
+F 9 "Samtec" H 8400 5550 60  0001 C CNN "Alt. Supplier"
+F 10 "ESQ-104-33-G-S" H 8400 5550 60  0001 C CNN "Alt. Order Code"
+F 11 "1x4 ESQ series elevated socket strip" H 8400 5550 60  0001 C CNN "Note"
 	1    8400 5550
 	1    0    0    -1  
 $EndComp
@@ -88,7 +92,7 @@ $Sheet
 S 5350 4900 1450 1100
 U 54D957C7
 F0 "I2C" 60
-F1 "I2C_1_0.sch" 60
+F1 "I2C.sch" 60
 F2 "SCL_3V3" B L 5350 5500 60 
 F3 "SDA_3V3" B L 5350 5400 60 
 F4 "SCL_5V" B R 6800 5400 60 
@@ -120,7 +124,7 @@ $Sheet
 S 4950 1600 1700 2050
 U 54E08E01
 F0 "shutterPWM" 60
-F1 "shutterPWM_1_0.sch" 60
+F1 "shutterPWM.sch" 60
 F2 "SH1" I L 4950 1750 60 
 F3 "SH2" I L 4950 1950 60 
 F4 "SH3" I L 4950 2150 60 
@@ -141,7 +145,7 @@ Text Notes 5300 1400 0    60   ~ 0
 PWM Shutter Contoller
 Text Notes 2200 3900 0    60   ~ 0
 Signal Connector
-Text Notes 2000 5650 0    60   ~ 0
+Text Notes 2850 6750 0    60   ~ 0
 3.5 mm Jacks for Servos
 NoConn ~ 7400 2150
 NoConn ~ 7400 1650
@@ -153,31 +157,35 @@ Text Label 4900 2800 2    60   ~ 0
 SCL_5V
 Text Label 4900 2700 2    60   ~ 0
 SDA_5V
-Text Label 2600 6200 0    60   ~ 0
-SERVOA
+Text Label 2000 6200 0    60   ~ 0
+SERVO1
 $Comp
 L +5VP #PWR01
 U 1 1 55692901
-P 3000 6100
-F 0 "#PWR01" H 3000 5950 60  0001 C CNN
-F 1 "+5VP" H 3000 6240 60  0000 C CNN
-F 2 "" H 3000 6100 60  0000 C CNN
-F 3 "" H 3000 6100 60  0000 C CNN
-	1    3000 6100
+P 2400 6100
+F 0 "#PWR01" H 2400 5950 60  0001 C CNN
+F 1 "+5VP" H 2400 6240 60  0000 C CNN
+F 2 "" H 2400 6100 60  0000 C CNN
+F 3 "" H 2400 6100 60  0000 C CNN
+	1    2400 6100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Jack_3.5mm_3pin P4
 U 1 1 5569290E
-P 3300 6250
-F 0 "P4" H 3050 6250 60  0000 R CNN
-F 1 "Jack_3.5mm_3pin" H 3050 6350 60  0000 R CNN
-F 2 "jakub:MJ4435-R" H 3275 6250 60  0001 C CNN
-F 3 "" H 3275 6250 60  0000 C CNN
-F 4 "MJ4435-R" H 3300 6250 60  0001 C CNN "Part Number"
-F 5 "Multicomp" H 3300 6250 60  0001 C CNN "Manufacturer"
-F 6 "1638670" H 3300 6250 60  0001 C CNN "Order Code"
-	1    3300 6250
+P 2700 6250
+F 0 "P4" H 2450 6250 60  0000 R CNN
+F 1 "Jack_3.5mm_3pin" H 2450 6350 60  0000 R CNN
+F 2 "jakub:MJ4435-R" H 2675 6250 60  0001 C CNN
+F 3 "" H 2675 6250 60  0000 C CNN
+F 4 "MJ4435-R" H 2700 6250 60  0001 C CNN "Part Number"
+F 5 "Multicomp" H 2700 6250 60  0001 C CNN "Manufacturer"
+F 6 "R/A 3.5mm jack" H 2700 6250 60  0001 C CNN "Package"
+F 7 "Farnell" H 2700 6250 60  0001 C CNN "Supplier"
+F 8 "1638670" H 2700 6250 60  0001 C CNN "Order Code"
+F 9 "N/A" H 2700 6250 60  0001 C CNN "Alt. Supplier"
+F 10 "Right-angle SMD 3.5mm 3-pin jack" H 2700 6250 60  0001 C CNN "Note"
+	1    2700 6250
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -190,7 +198,12 @@ F 2 "jakub:1-188275-2" H 2600 3150 60  0001 C CNN
 F 3 "" H 2600 3150 60  0000 C CNN
 F 4 "8-188275-2" H 2600 4350 60  0001 C CNN "Part Number"
 F 5 "TE Connectivity" H 2600 4350 60  0001 C CNN "Manufacturer"
-F 6 "3784757" H 2600 4350 60  0001 C CNN "Order Code"
+F 6 "Micro-MaTch SMD" H 2600 4350 60  0001 C CNN "Package"
+F 7 "Farnell" H 2600 4350 60  0001 C CNN "Supplier"
+F 8 "3784757" H 2600 4350 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 2600 4350 60  0001 C CNN "Alt. Supplier"
+F 10 "571-8-188275-2" H 2600 4350 60  0001 C CNN "Alt. Order Code"
+F 11 "12-way SMD Micro-MaTch connector" H 2600 4350 60  0001 C CNN "Note"
 	1    2600 4350
 	1    0    0    -1  
 $EndComp
@@ -203,12 +216,17 @@ L CONN_01X14 P1
 U 1 1 556973F8
 P 1300 1950
 F 0 "P1" H 1300 2700 50  0000 C CNN
-F 1 "Header_1x14" V 1400 1950 50  0000 C CNN
+F 1 "1x14 header strip" V 1400 1950 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x14" H 1300 1950 60  0001 C CNN
 F 3 "" H 1300 1950 60  0000 C CNN
 F 4 "MC34735" H 1300 1950 60  0001 C CNN "Part Number"
 F 5 "Multicomp" H 1300 1950 60  0001 C CNN "Manufacturer"
-F 6 "1593421" H 1300 1950 60  0001 C CNN "Order Code"
+F 6 "SIL-14" H 1300 1950 60  0001 C CNN "Package"
+F 7 "Farnell" H 1300 1950 60  0001 C CNN "Supplier"
+F 8 "1593421" H 1300 1950 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 1300 1950 60  0001 C CNN "Alt. Supplier"
+F 10 "855-M20-9991446" H 1300 1950 60  0001 C CNN "Alt. Order Code"
+F 11 "1x14 header strip" H 1300 1950 60  0001 C CNN "Note"
 	1    1300 1950
 	-1   0    0    -1  
 $EndComp
@@ -217,12 +235,17 @@ L CONN_01X14 P2
 U 1 1 5569748E
 P 2500 1950
 F 0 "P2" H 2500 2700 50  0000 C CNN
-F 1 "Socket_1x14" V 2600 1950 50  0000 C CNN
+F 1 "1x14 socket strip" V 2600 1950 50  0000 C CNN
 F 2 "jakub:ESQ-114-33-G-S" H 2500 1950 60  0001 C CNN
 F 3 "" H 2500 1950 60  0000 C CNN
 F 4 "ESQ-114-33-G-S" H 2500 1950 60  0001 C CNN "Part Number"
 F 5 "Samtec" H 2500 1950 60  0001 C CNN "Manufacturer"
-F 6 "1930609" H 2500 1950 60  0001 C CNN "Order Code"
+F 6 "SIL-14" H 2500 1950 60  0001 C CNN "Package"
+F 7 "Farnell" H 2500 1950 60  0001 C CNN "Supplier"
+F 8 "1930609" H 2500 1950 60  0001 C CNN "Order Code"
+F 9 "Samtec" H 2500 1950 60  0001 C CNN "Alt. Supplier"
+F 10 "ESQ-114-33-G-S" H 2500 1950 60  0001 C CNN "Alt. Order Code"
+F 11 "1x14 ESQ series elevated socket strip" H 2500 1950 60  0001 C CNN "Note"
 	1    2500 1950
 	1    0    0    -1  
 $EndComp
@@ -287,12 +310,17 @@ L CONN_01X04 P9
 U 1 1 55698B6F
 P 8400 4850
 F 0 "P9" H 8400 5100 50  0000 C CNN
-F 1 "Header_1x4" V 8500 4850 50  0000 C CNN
+F 1 "1x4 header strip" V 8500 4850 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 8400 4850 60  0001 C CNN
 F 3 "" H 8400 4850 60  0000 C CNN
-F 4 "HTSW-104-15-G-S" H 8400 4850 60  0001 C CNN "Part Number"
-F 5 "Samtec" H 8400 4850 60  0001 C CNN "Manufacturer"
-F 6 "1926221" H 8400 4850 60  0001 C CNN "Order Code"
+F 4 "M20-9990445" H 8400 4850 60  0001 C CNN "Part Number"
+F 5 "Harwin" H 8400 4850 60  0001 C CNN "Manufacturer"
+F 6 "SIL-4" H 8400 4850 60  0001 C CNN "Package"
+F 7 "Farnell" H 8400 4850 60  0001 C CNN "Supplier"
+F 8 "1926221" H 8400 4850 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 8400 4850 60  0001 C CNN "Alt. Supplier"
+F 10 "855-M20-9990445" H 8400 4850 60  0001 C CNN "Alt. Order Code"
+F 11 "1x4 header strip" H 8400 4850 60  0001 C CNN "Note"
 	1    8400 4850
 	1    0    0    -1  
 $EndComp
@@ -306,7 +334,11 @@ F 2 "jakub:PSG01544" H 7700 2250 60  0001 C CNN
 F 3 "" H 7700 2250 60  0000 C CNN
 F 4 "PSG01540" H 7700 2250 60  0001 C CNN "Part Number"
 F 5 "Pro Signal" H 7700 2250 60  0001 C CNN "Manufacturer"
-F 6 "1280698" H 7700 2250 60  0001 C CNN "Order Code"
+F 6 "R/A RCA jack" H 7700 2250 60  0001 C CNN "Package"
+F 7 "Farnell" H 7700 2250 60  0001 C CNN "Supplier"
+F 8 "1280698" H 7700 2250 60  0001 C CNN "Order Code"
+F 9 "N/A" H 7700 2250 60  0001 C CNN "Alt. Supplier"
+F 10 "Right-angle RCA jack" H 7700 2250 60  0001 C CNN "Note"
 	1    7700 2250
 	1    0    0    -1  
 $EndComp
@@ -320,7 +352,11 @@ F 2 "jakub:PSG01544" H 7700 1750 60  0001 C CNN
 F 3 "" H 7700 1750 60  0000 C CNN
 F 4 "PSG01540" H 7700 1750 60  0001 C CNN "Part Number"
 F 5 "Pro Signal" H 7700 1750 60  0001 C CNN "Manufacturer"
-F 6 "1280698" H 7700 1750 60  0001 C CNN "Order Code"
+F 6 "R/A RCA jack" H 7700 1750 60  0001 C CNN "Package"
+F 7 "Farnell" H 7700 1750 60  0001 C CNN "Supplier"
+F 8 "1280698" H 7700 1750 60  0001 C CNN "Order Code"
+F 9 "N/A" H 7700 1750 60  0001 C CNN "Alt. Supplier"
+F 10 "Right-angle RCA jack" H 7700 1750 60  0001 C CNN "Note"
 	1    7700 1750
 	1    0    0    -1  
 $EndComp
@@ -377,11 +413,11 @@ Wire Wire Line
 Wire Wire Line
 	4950 2700 4400 2700
 Wire Wire Line
-	3100 6400 3000 6400
+	2500 6400 2400 6400
 Wire Wire Line
-	3100 6200 2500 6200
+	2500 6200 1900 6200
 Wire Wire Line
-	3000 6300 3100 6300
+	2400 6300 2500 6300
 Wire Wire Line
 	7250 5600 8200 5600
 Wire Wire Line
@@ -471,123 +507,88 @@ SH3
 Text Label 7200 3400 0    60   ~ 0
 SH4
 Wire Wire Line
-	3000 6400 3000 6500
+	2400 6400 2400 6500
 $Comp
 L GND #PWR07
 U 1 1 556B4A41
-P 3000 6500
-F 0 "#PWR07" H 3000 6250 60  0001 C CNN
-F 1 "GND" H 3000 6350 60  0000 C CNN
-F 2 "" H 3000 6500 60  0000 C CNN
-F 3 "" H 3000 6500 60  0000 C CNN
-	1    3000 6500
+P 2400 6500
+F 0 "#PWR07" H 2400 6250 60  0001 C CNN
+F 1 "GND" H 2400 6350 60  0000 C CNN
+F 2 "" H 2400 6500 60  0000 C CNN
+F 3 "" H 2400 6500 60  0000 C CNN
+	1    2400 6500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3000 6100 3000 6300
-$Comp
-L R R1
-U 1 1 556B5D40
-P 2150 6100
-F 0 "R1" V 2230 6100 50  0000 C CNN
-F 1 "0R" V 2157 6101 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 2080 6100 30  0001 C CNN
-F 3 "" H 2150 6100 30  0000 C CNN
-F 4 "MCMR08X000 PTL" V 2150 6100 60  0001 C CNN "Part Number"
-F 5 "Multicomp" V 2150 6100 60  0001 C CNN "Manufacturer"
-F 6 "2073603" V 2150 6100 60  0001 C CNN "Order Code"
-	1    2150 6100
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2300 6100 2500 6100
-Wire Wire Line
-	2500 6100 2500 6300
-Wire Wire Line
-	2500 6300 2300 6300
-Connection ~ 2500 6200
-Wire Wire Line
-	2000 6100 1500 6100
-Wire Wire Line
-	2000 6300 1500 6300
-Text Label 1600 6100 0    60   ~ 0
-SERVO1
-Text Label 1600 6300 0    60   ~ 0
-SERVO3
-Text Label 2600 7100 0    60   ~ 0
-SERVOB
+	2400 6100 2400 6300
+Text Label 2000 7100 0    60   ~ 0
+SERVO2
 $Comp
 L +5VP #PWR08
 U 1 1 556B751B
-P 3000 7000
-F 0 "#PWR08" H 3000 6850 60  0001 C CNN
-F 1 "+5VP" H 3000 7140 60  0000 C CNN
-F 2 "" H 3000 7000 60  0000 C CNN
-F 3 "" H 3000 7000 60  0000 C CNN
-	1    3000 7000
+P 2400 7000
+F 0 "#PWR08" H 2400 6850 60  0001 C CNN
+F 1 "+5VP" H 2400 7140 60  0000 C CNN
+F 2 "" H 2400 7000 60  0000 C CNN
+F 3 "" H 2400 7000 60  0000 C CNN
+	1    2400 7000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Jack_3.5mm_3pin P5
 U 1 1 556B7522
-P 3300 7150
-F 0 "P5" H 3050 7150 60  0000 R CNN
-F 1 "Jack_3.5mm_3pin" H 3050 7250 60  0000 R CNN
-F 2 "jakub:MJ4435-R" H 3275 7150 60  0001 C CNN
-F 3 "" H 3275 7150 60  0000 C CNN
-F 4 "MJ4435-R" H 3300 7150 60  0001 C CNN "Part Number"
-F 5 "Multicomp" H 3300 7150 60  0001 C CNN "Manufacturer"
-F 6 "1638670" H 3300 7150 60  0001 C CNN "Order Code"
-	1    3300 7150
+P 2700 7150
+F 0 "P5" H 2450 7150 60  0000 R CNN
+F 1 "Jack_3.5mm_3pin" H 2450 7250 60  0000 R CNN
+F 2 "jakub:MJ4435-R" H 2675 7150 60  0001 C CNN
+F 3 "" H 2675 7150 60  0000 C CNN
+F 4 "MJ4435-R" H 2700 7150 60  0001 C CNN "Part Number"
+F 5 "Multicomp" H 2700 7150 60  0001 C CNN "Manufacturer"
+F 6 "R/A 3.5mm jack" H 2700 7150 60  0001 C CNN "Package"
+F 7 "Farnell" H 2700 7150 60  0001 C CNN "Supplier"
+F 8 "1638670" H 2700 7150 60  0001 C CNN "Order Code"
+F 9 "N/A" H 2700 7150 60  0001 C CNN "Alt. Supplier"
+F 10 "Right-angle SMD 3.5mm 3-pin jack" H 2700 7150 60  0001 C CNN "Note"
+	1    2700 7150
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	3100 7300 3000 7300
+	2500 7300 2400 7300
 Wire Wire Line
-	3100 7100 2500 7100
+	2500 7100 1900 7100
 Wire Wire Line
-	3000 7200 3100 7200
+	2400 7200 2500 7200
 Wire Wire Line
-	3000 7300 3000 7400
+	2400 7300 2400 7400
 $Comp
 L GND #PWR09
 U 1 1 556B752C
-P 3000 7400
-F 0 "#PWR09" H 3000 7150 60  0001 C CNN
-F 1 "GND" H 3000 7250 60  0000 C CNN
-F 2 "" H 3000 7400 60  0000 C CNN
-F 3 "" H 3000 7400 60  0000 C CNN
-	1    3000 7400
+P 2400 7400
+F 0 "#PWR09" H 2400 7150 60  0001 C CNN
+F 1 "GND" H 2400 7250 60  0000 C CNN
+F 2 "" H 2400 7400 60  0000 C CNN
+F 3 "" H 2400 7400 60  0000 C CNN
+	1    2400 7400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3000 7000 3000 7200
-Wire Wire Line
-	2300 7000 2500 7000
-Wire Wire Line
-	2500 7000 2500 7200
-Wire Wire Line
-	2500 7200 2300 7200
-Connection ~ 2500 7100
-Wire Wire Line
-	2000 7000 1500 7000
-Wire Wire Line
-	2000 7200 1500 7200
-Text Label 1600 7000 0    60   ~ 0
-SERVO2
-Text Label 1600 7200 0    60   ~ 0
-SERVO4
+	2400 7000 2400 7200
 $Comp
 L CONN_01X06 P8
 U 1 1 556B98AA
 P 7900 3350
 F 0 "P8" H 7900 3700 50  0000 C CNN
-F 1 "Socket_1x6" V 8000 3350 50  0000 C CNN
+F 1 "1x6 socket strip" V 8000 3350 50  0000 C CNN
 F 2 "jakub:ESQ-106-33-G-S" H 7900 3350 60  0001 C CNN
 F 3 "" H 7900 3350 60  0000 C CNN
 F 4 "ESQ-106-33-G-S" H 7900 3350 60  0001 C CNN "Part Number"
 F 5 "Samtec" H 7900 3350 60  0001 C CNN "Manufacturer"
-F 6 "1928680" H 7900 3350 60  0001 C CNN "Order Code"
+F 6 "SIL-6" H 7900 3350 60  0001 C CNN "Package"
+F 7 "Farnell" H 7900 3350 60  0001 C CNN "Supplier"
+F 8 "1928680" H 7900 3350 60  0001 C CNN "Order Code"
+F 9 "Samtec" H 7900 3350 60  0001 C CNN "Alt. Supplier"
+F 10 "ESQ-106-33-G-S" H 7900 3350 60  0001 C CNN "Alt. Order Code"
+F 11 "1x6 ESQ series elevated socket strip" H 7900 3350 60  0001 C CNN "Note"
 	1    7900 3350
 	1    0    0    -1  
 $EndComp
@@ -599,66 +600,4 @@ Text Label 7200 3500 0    60   ~ 0
 SERVO3
 Text Label 7200 3600 0    60   ~ 0
 SERVO4
-$Comp
-L R R2
-U 1 1 55C09B94
-P 2150 6300
-F 0 "R2" V 2230 6300 50  0000 C CNN
-F 1 "0R" V 2157 6301 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 2080 6300 30  0001 C CNN
-F 3 "" H 2150 6300 30  0000 C CNN
-F 4 "MCMR08X000 PTL" V 2150 6300 60  0001 C CNN "Part Number"
-F 5 "Multicomp" V 2150 6300 60  0001 C CNN "Manufacturer"
-F 6 "2073603" V 2150 6300 60  0001 C CNN "Order Code"
-	1    2150 6300
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R R3
-U 1 1 55C09BF7
-P 2150 7000
-F 0 "R3" V 2230 7000 50  0000 C CNN
-F 1 "0R" V 2157 7001 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 2080 7000 30  0001 C CNN
-F 3 "" H 2150 7000 30  0000 C CNN
-F 4 "MCMR08X000 PTL" V 2150 7000 60  0001 C CNN "Part Number"
-F 5 "Multicomp" V 2150 7000 60  0001 C CNN "Manufacturer"
-F 6 "2073603" V 2150 7000 60  0001 C CNN "Order Code"
-	1    2150 7000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R R4
-U 1 1 55C09C78
-P 2150 7200
-F 0 "R4" V 2230 7200 50  0000 C CNN
-F 1 "0R" V 2157 7201 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 2080 7200 30  0001 C CNN
-F 3 "" H 2150 7200 30  0000 C CNN
-F 4 "MCMR08X000 PTL" V 2150 7200 60  0001 C CNN "Part Number"
-F 5 "Multicomp" V 2150 7200 60  0001 C CNN "Manufacturer"
-F 6 "2073603" V 2150 7200 60  0001 C CNN "Order Code"
-	1    2150 7200
-	0    -1   -1   0   
-$EndComp
-Text Notes 1850 5950 0    47   ~ 0
-bottom board only
-Text Notes 1850 6850 0    47   ~ 0
-bottom board only
-Text Notes 1900 6450 0    47   ~ 0
-top board only
-Text Notes 1900 7350 0    47   ~ 0
-top board only
-Text Notes 8100 3400 0    60   ~ 0
-Bottom board:\nTop board:
-Text Notes 8800 3400 0    60   ~ 0
-Socket on top side\nHeader on bottom side
-Text Notes 8600 4950 0    60   ~ 0
-Bottom board:\nTop board:
-Text Notes 9300 4950 0    60   ~ 0
-Header on bottom side\nUnused
-Text Notes 8600 5650 0    60   ~ 0
-Bottom board:\nTop board:
-Text Notes 9300 5650 0    60   ~ 0
-Socket on top side\nHeader on bottom
 $EndSCHEMATC

@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:MicroFLiC_servo_solenoid_1_0-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -31,7 +30,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:jakub
-LIBS:MicroFLiC_servo_solenoid_1_0-cache
+LIBS:MicroFLiC_servo_solenoid-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -51,12 +50,17 @@ L PCA9306 U1
 U 1 1 54D95FBE
 P 4850 2700
 F 0 "U1" H 4850 3200 60  0000 C CNN
-F 1 "PCA9306" H 4850 3100 60  0000 C CNN
+F 1 "PCA9306DP" H 4850 3100 60  0000 C CNN
 F 2 "Housings_SSOP:TSSOP-8_3x3mm_Pitch0.65mm" H 4850 2700 60  0001 C CNN
 F 3 "" H 4850 2700 60  0000 C CNN
 F 4 "PCA9306DP" H 4850 2700 60  0001 C CNN "Part Number"
-F 5 "NXP" H 4850 2700 60  0001 C CNN "Manufacturer"
-F 6 "2212072" H 4850 2700 60  0001 C CNN "Order Code"
+F 5 "NXP Semiconductors" H 4850 2700 60  0001 C CNN "Manufacturer"
+F 6 "TSSOP-8" H 4850 2700 60  0001 C CNN "Package"
+F 7 "Farnell" H 4850 2700 60  0001 C CNN "Supplier"
+F 8 "2212072" H 4850 2700 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 4850 2700 60  0001 C CNN "Alt. Supplier"
+F 10 "771-PCA9306DP-T" H 4850 2700 60  0001 C CNN "Alt. Order Code"
+F 11 "Dual I²C-bus voltage translator" H 4850 2700 60  0001 C CNN "Note"
 	1    4850 2700
 	1    0    0    -1  
 $EndComp
@@ -121,15 +125,18 @@ $Comp
 L C C1
 U 1 1 54D96092
 P 5450 3650
-AR Path="/54D96092" Ref="C1"  Part="1" 
-AR Path="/54D957C7/54D96092" Ref="C1"  Part="1" 
 F 0 "C1" H 5450 3750 40  0000 L CNN
 F 1 "100n" H 5456 3565 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805" H 5488 3500 30  0001 C CNN
 F 3 "" H 5450 3650 60  0000 C CNN
 F 4 "MC0805B104K250CT" H 5450 3650 60  0001 C CNN "Part Number"
 F 5 "Multicomp" H 5450 3650 60  0001 C CNN "Manufacturer"
-F 6 "1759166" H 5450 3650 60  0001 C CNN "Order Code"
+F 6 "0805" H 5450 3650 60  0001 C CNN "Package"
+F 7 "Farnell" H 5450 3650 60  0001 C CNN "Supplier"
+F 8 "1759166" H 5450 3650 60  0001 C CNN "Order Code"
+F 9 "Mouser" H 5450 3650 60  0001 C CNN "Alt. Supplier"
+F 10 "710-885012207098" H 5450 3650 60  0001 C CNN "Alt. Order Code"
+F 11 "100nF/50V X7R 0805 ceramic capacitor" H 5450 3650 60  0001 C CNN "Note"
 	1    5450 3650
 	1    0    0    -1  
 $EndComp
