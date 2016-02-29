@@ -1,15 +1,15 @@
 (export (version D)
   (design
-    (source /home/jakub/KiCAD/MicroFLiC_servo_solenoid_bottom_1_1/MicroFLiC_servo_solenoid.sch)
-    (date "Sun 28 Feb 2016 00:31:55 GMT")
-    (tool "Eeschema (2015-12-10 BZR 6367)-product")
+    (source /home/jakub/KiCAD/MicroFLiC_servo_solenoid_bottom_1_1/MicroFLiC_servo_solenoid_bottom.sch)
+    (date "Mon 29 Feb 2016 12:50:38 GMT")
+    (tool "Eeschema 4.0.2-4+6225~38~ubuntu14.04.1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "Flow Unit Shield")
         (company "King's College London")
         (rev 1.2)
         (date "18 Jun 2014")
-        (source MicroFLiC_servo_solenoid.sch)
+        (source MicroFLiC_servo_solenoid_bottom.sch)
         (comment (number 1) (value ""))
         (comment (number 2) (value ""))
         (comment (number 3) (value ""))
@@ -560,6 +560,7 @@
       (tstamp 5668B297))
     (comp (ref D5)
       (value 1N4148)
+      (footprint Diodes_SMD:SOD-323)
       (fields
         (field (name "Part Number") 1N4148WS)
         (field (name Manufacturer) Multicomp)
@@ -574,6 +575,7 @@
       (tstamp 56D2E38C))
     (comp (ref D6)
       (value 1N4148)
+      (footprint Diodes_SMD:SOD-323)
       (fields
         (field (name "Part Number") 1N4148WS)
         (field (name Manufacturer) Multicomp)
@@ -800,12 +802,12 @@
         (pin (num 2) (name 2) (type passive))
         (pin (num 3) (name 3) (type passive)))))
   (libraries
-    (library (logical jakub)
-      (uri /home/jakub/KiCAD/share/library/contrib/jakub/jakub.lib))
-    (library (logical conn)
-      (uri /usr/local/share/kicad/library/conn.lib))
     (library (logical device)
-      (uri /usr/local/share/kicad/library/device.lib)))
+      (uri /usr/share/kicad/library/device.lib))
+    (library (logical conn)
+      (uri /usr/share/kicad/library/conn.lib))
+    (library (logical jakub)
+      (uri /home/jakub/KiCAD/share/library/contrib/jakub/jakub.lib)))
   (nets
     (net (code 1) (name GND)
       (node (ref P1) (pin 3))

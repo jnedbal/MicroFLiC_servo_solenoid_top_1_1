@@ -133,9 +133,7 @@ SH_~LDAC
 Wire Wire Line
 	2150 2800 1950 2800
 Wire Wire Line
-	1950 2800 1950 3000
-Wire Wire Line
-	1950 3000 1950 3300
+	1950 2800 1950 3300
 Wire Wire Line
 	1950 3000 2150 3000
 Connection ~ 1950 3000
@@ -224,20 +222,12 @@ F 3 "" H 5400 2700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5100 2000 5100 2150
+	5100 1900 5100 2150
 Wire Wire Line
 	5400 2000 5400 2150
 Connection ~ 5400 2000
 Wire Wire Line
-	5100 2000 5100 2000
-Wire Wire Line
-	5100 2000 5200 2000
-Wire Wire Line
-	5200 2000 5300 2000
-Wire Wire Line
-	5300 2000 5400 2000
-Wire Wire Line
-	5400 2000 5700 2000
+	5100 2000 5700 2000
 Text HLabel 5700 2000 2    60   Output ~ 0
 SHA_PWR
 Text HLabel 7300 2950 0    60   BiDi ~ 0
@@ -449,8 +439,6 @@ Wire Wire Line
 	5200 1300 5200 1400
 Wire Wire Line
 	5300 1300 5300 1400
-Wire Wire Line
-	5100 1900 5100 2000
 Connection ~ 5100 2000
 Wire Wire Line
 	5200 1900 5200 2000
@@ -467,11 +455,7 @@ Wire Wire Line
 	5300 1900 5300 2000
 Connection ~ 5300 2000
 Wire Wire Line
-	4100 2600 4600 2600
-Wire Wire Line
-	4600 2600 5100 2600
-Wire Wire Line
-	5100 2600 5700 2600
+	4100 2600 5700 2600
 Wire Wire Line
 	5100 2600 5100 2450
 Wire Wire Line
@@ -480,11 +464,7 @@ Connection ~ 4600 2600
 Wire Wire Line
 	4600 1400 4600 1600
 Wire Wire Line
-	3800 1400 4200 1400
-Wire Wire Line
-	4200 1400 4400 1400
-Wire Wire Line
-	4400 1400 4600 1400
+	3800 1400 4600 1400
 Wire Wire Line
 	4200 1400 4200 1600
 $Comp
@@ -531,9 +511,7 @@ $EndComp
 Wire Wire Line
 	2150 6000 1950 6000
 Wire Wire Line
-	1950 6000 1950 6200
-Wire Wire Line
-	1950 6200 1950 6500
+	1950 6000 1950 6500
 Wire Wire Line
 	1950 6200 2150 6200
 Connection ~ 1950 6200
@@ -601,20 +579,12 @@ F 3 "" H 5400 5900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5100 5200 5100 5350
+	5100 5100 5100 5350
 Wire Wire Line
 	5400 5200 5400 5350
 Connection ~ 5400 5200
 Wire Wire Line
-	5100 5200 5100 5200
-Wire Wire Line
-	5100 5200 5200 5200
-Wire Wire Line
-	5200 5200 5300 5200
-Wire Wire Line
-	5300 5200 5400 5200
-Wire Wire Line
-	5400 5200 5700 5200
+	5100 5200 5700 5200
 Text HLabel 5700 5200 2    60   Output ~ 0
 SHB_PWR
 Text Label 1400 6400 0    60   ~ 0
@@ -648,8 +618,6 @@ Wire Wire Line
 	5200 4500 5200 4600
 Wire Wire Line
 	5300 4500 5300 4600
-Wire Wire Line
-	5100 5100 5100 5200
 Connection ~ 5100 5200
 Wire Wire Line
 	5200 5100 5200 5200
@@ -666,11 +634,7 @@ Wire Wire Line
 	5300 5100 5300 5200
 Connection ~ 5300 5200
 Wire Wire Line
-	4100 5800 4600 5800
-Wire Wire Line
-	4600 5800 5100 5800
-Wire Wire Line
-	5100 5800 5700 5800
+	4100 5800 5700 5800
 Wire Wire Line
 	5100 5800 5100 5650
 Wire Wire Line
@@ -679,11 +643,7 @@ Connection ~ 4600 5800
 Wire Wire Line
 	4600 4600 4600 4800
 Wire Wire Line
-	3800 4600 4200 4600
-Wire Wire Line
-	4200 4600 4400 4600
-Wire Wire Line
-	4400 4600 4600 4600
+	3800 4600 4600 4600
 Wire Wire Line
 	4200 4600 4200 4800
 $Comp
