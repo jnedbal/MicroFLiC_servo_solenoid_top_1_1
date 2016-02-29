@@ -1,36 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/jakub/KiCAD/MicroFLiC_servo_solenoid_bottom_1_1/MicroFLiC_servo_solenoid.sch</source>
-    <date>Sun 28 Feb 2016 00:31:57 GMT</date>
-    <tool>Eeschema (2015-12-10 BZR 6367)-product</tool>
+    <source>/home/jakub/KiCAD/MicroFLiC_servo_solenoid_top_1_1/MicroFLiC_servo_solenoid_top.sch</source>
+    <date>Mon 29 Feb 2016 18:42:41 GMT</date>
+    <tool>Eeschema 4.0.2-4+6225~38~ubuntu14.04.1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Flow Unit Shield</title>
         <company>King's College London</company>
         <rev>1.2</rev>
         <date>18 Jun 2014</date>
-        <source>MicroFLiC_servo_solenoid.sch</source>
+        <source>MicroFLiC_servo_solenoid_top.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="2" name="/I2C/" tstamps="/54D957C7/">
-      <title_block>
-        <title>Flow Unit Shield</title>
-        <company>King's College London</company>
-        <rev>1.23</rev>
-        <date/>
-        <source>I2C.sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
-        <comment number="3" value=""/>
-        <comment number="4" value=""/>
-      </title_block>
-    </sheet>
-    <sheet number="3" name="/shutterPWM/" tstamps="/54E08E01/">
+    <sheet number="2" name="/shutterPWM/" tstamps="/54E08E01/">
       <title_block>
         <title>Flow Unit Shield</title>
         <company>King's College London</company>
@@ -45,7 +32,7 @@
     </sheet>
   </design>
   <components>
-    <comp ref="P10">
+    <comp ref="P9">
       <value>1x4 socket strip</value>
       <footprint>jakub:ESQ-104-33-G-S</footprint>
       <fields>
@@ -62,7 +49,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54DF35DA</tstamp>
     </comp>
-    <comp ref="P4">
+    <comp ref="P3">
       <value>Jack_3.5mm_3pin</value>
       <footprint>jakub:MJ4435-R</footprint>
       <fields>
@@ -78,26 +65,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5569290E</tstamp>
     </comp>
-    <comp ref="P3">
-      <value>12-way Micro-MaTch</value>
-      <footprint>jakub:1-188275-2</footprint>
-      <fields>
-        <field name="Part Number">8-188275-2</field>
-        <field name="Manufacturer">TE Connectivity</field>
-        <field name="Package">Micro-MaTch SMD</field>
-        <field name="Supplier">Farnell</field>
-        <field name="Order Code">3784757</field>
-        <field name="Alt. Supplier">Mouser</field>
-        <field name="Alt. Order Code">571-8-188275-2</field>
-        <field name="Note">12-way SMD Micro-MaTch connector</field>
-      </fields>
-      <libsource lib="conn" part="CONN_02X06"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>556935BE</tstamp>
-    </comp>
     <comp ref="P1">
-      <value>1x14 header strip</value>
-      <footprint>Pin_Headers:Pin_Header_Straight_1x14</footprint>
+      <value>1x14 socket strip</value>
+      <footprint>jakub:ESQ-114-33-G-S</footprint>
       <fields>
         <field name="Part Number">MC34735</field>
         <field name="Manufacturer">Multicomp</field>
@@ -113,8 +83,8 @@
       <tstamp>556973F8</tstamp>
     </comp>
     <comp ref="P2">
-      <value>1x14 socket strip</value>
-      <footprint>jakub:ESQ-114-33-G-S</footprint>
+      <value>1x14 header strip</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x14</footprint>
       <fields>
         <field name="Part Number">ESQ-114-33-G-S</field>
         <field name="Manufacturer">Samtec</field>
@@ -129,7 +99,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5569748E</tstamp>
     </comp>
-    <comp ref="P9">
+    <comp ref="P8">
       <value>1x4 header strip</value>
       <footprint>Pin_Headers:Pin_Header_Straight_1x04</footprint>
       <fields>
@@ -146,7 +116,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55698B6F</tstamp>
     </comp>
-    <comp ref="P7">
+    <comp ref="P6">
       <value>RCA_3</value>
       <footprint>jakub:PSG01544</footprint>
       <fields>
@@ -162,7 +132,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E05655</tstamp>
     </comp>
-    <comp ref="P6">
+    <comp ref="P5">
       <value>RCA_3</value>
       <footprint>jakub:PSG01544</footprint>
       <fields>
@@ -178,7 +148,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54E05653</tstamp>
     </comp>
-    <comp ref="P5">
+    <comp ref="P4">
       <value>Jack_3.5mm_3pin</value>
       <footprint>jakub:MJ4435-R</footprint>
       <fields>
@@ -194,9 +164,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>556B7522</tstamp>
     </comp>
-    <comp ref="P8">
-      <value>1x6 socket strip</value>
-      <footprint>jakub:ESQ-106-33-G-S</footprint>
+    <comp ref="P7">
+      <value>1x6 header strip</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x06</footprint>
       <fields>
         <field name="Part Number">ESQ-106-33-G-S</field>
         <field name="Manufacturer">Samtec</field>
@@ -211,41 +181,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>556B98AA</tstamp>
     </comp>
-    <comp ref="U1">
-      <value>PCA9306DP</value>
-      <footprint>Housings_SSOP:TSSOP-8_3x3mm_Pitch0.65mm</footprint>
-      <fields>
-        <field name="Part Number">PCA9306DP</field>
-        <field name="Manufacturer">NXP Semiconductors</field>
-        <field name="Package">TSSOP-8</field>
-        <field name="Supplier">Farnell</field>
-        <field name="Order Code">2212072</field>
-        <field name="Alt. Supplier">Mouser</field>
-        <field name="Alt. Order Code">771-PCA9306DP-T</field>
-        <field name="Note">Dual I²C-bus voltage translator</field>
-      </fields>
-      <libsource lib="jakub" part="PCA9306"/>
-      <sheetpath names="/I2C/" tstamps="/54D957C7/"/>
-      <tstamp>54D95FBE</tstamp>
-    </comp>
     <comp ref="C1">
-      <value>100n</value>
-      <footprint>Capacitors_SMD:C_0805</footprint>
-      <fields>
-        <field name="Part Number">MC0805B104K250CT</field>
-        <field name="Manufacturer">Multicomp</field>
-        <field name="Package">0805</field>
-        <field name="Supplier">Farnell</field>
-        <field name="Order Code">1759166</field>
-        <field name="Alt. Supplier">Mouser</field>
-        <field name="Alt. Order Code">710-885012207098</field>
-        <field name="Note">100nF/50V X7R 0805 ceramic capacitor</field>
-      </fields>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/I2C/" tstamps="/54D957C7/"/>
-      <tstamp>54D96092</tstamp>
-    </comp>
-    <comp ref="C2">
       <value>10n</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
@@ -279,7 +215,7 @@
       <sheetpath names="/shutterPWM/" tstamps="/54E08E01/"/>
       <tstamp>53A2B9D0</tstamp>
     </comp>
-    <comp ref="C4">
+    <comp ref="C3">
       <value>4u7/25V</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
@@ -296,7 +232,7 @@
       <sheetpath names="/shutterPWM/" tstamps="/54E08E01/"/>
       <tstamp>53A2CAC9</tstamp>
     </comp>
-    <comp ref="C6">
+    <comp ref="C5">
       <value>4u7/25V</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
@@ -313,24 +249,7 @@
       <sheetpath names="/shutterPWM/" tstamps="/54E08E01/"/>
       <tstamp>55463929</tstamp>
     </comp>
-    <comp ref="C8">
-      <value>100n</value>
-      <footprint>Capacitors_SMD:C_0805</footprint>
-      <fields>
-        <field name="Part Number">MC0805B104K250CT</field>
-        <field name="Manufacturer">Multicomp</field>
-        <field name="Package">0805</field>
-        <field name="Supplier">Farnell</field>
-        <field name="Order Code">1759166</field>
-        <field name="Alt. Supplier">Mouser</field>
-        <field name="Alt. Order Code">710-885012207098</field>
-        <field name="Note">100nF/50V X7R 0805 ceramic capacitor</field>
-      </fields>
-      <libsource lib="device" part="C"/>
-      <sheetpath names="/shutterPWM/" tstamps="/54E08E01/"/>
-      <tstamp>554980CC</tstamp>
-    </comp>
-    <comp ref="U2">
+    <comp ref="U1">
       <value>DRV103</value>
       <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
       <fields>
@@ -346,23 +265,6 @@
       <libsource lib="jakub" part="DRV103"/>
       <sheetpath names="/shutterPWM/" tstamps="/54E08E01/"/>
       <tstamp>55498318</tstamp>
-    </comp>
-    <comp ref="U4">
-      <value>MCP4728</value>
-      <footprint>Housings_SSOP:MSOP-10_3x3mm_Pitch0.5mm</footprint>
-      <fields>
-        <field name="Part Number">MCP4728-E/UN</field>
-        <field name="Manufacturer">Microchip</field>
-        <field name="Package">MSOP-10</field>
-        <field name="Supplier">Farnell</field>
-        <field name="Order Code">1800217</field>
-        <field name="Alt. Supplier">Mouser</field>
-        <field name="Alt. Order Code">579-MCP4728-E/UN</field>
-        <field name="Note">12-bit quad digital-to-analog converter with EEPROM memory</field>
-      </fields>
-      <libsource lib="jakub" part="MCP4728"/>
-      <sheetpath names="/shutterPWM/" tstamps="/54E08E01/"/>
-      <tstamp>5549D46D</tstamp>
     </comp>
     <comp ref="R3">
       <value>10k</value>
@@ -415,7 +317,7 @@
       <sheetpath names="/shutterPWM/" tstamps="/54E08E01/"/>
       <tstamp>556888A1</tstamp>
     </comp>
-    <comp ref="P12">
+    <comp ref="P11">
       <value>2x3 header strip R/A</value>
       <footprint>Pin_Headers:Pin_Header_Angled_2x03</footprint>
       <fields>
@@ -449,7 +351,7 @@
       <sheetpath names="/shutterPWM/" tstamps="/54E08E01/"/>
       <tstamp>55C0F844</tstamp>
     </comp>
-    <comp ref="C5">
+    <comp ref="C4">
       <value>4u7/25V</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
@@ -466,7 +368,7 @@
       <sheetpath names="/shutterPWM/" tstamps="/54E08E01/"/>
       <tstamp>55C0FEBC</tstamp>
     </comp>
-    <comp ref="U3">
+    <comp ref="U2">
       <value>DRV103</value>
       <footprint>Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm</footprint>
       <fields>
@@ -534,7 +436,7 @@
       <sheetpath names="/shutterPWM/" tstamps="/54E08E01/"/>
       <tstamp>55C10BB7</tstamp>
     </comp>
-    <comp ref="C7">
+    <comp ref="C6">
       <value>4u7/25V</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
@@ -551,7 +453,7 @@
       <sheetpath names="/shutterPWM/" tstamps="/54E08E01/"/>
       <tstamp>55C117E9</tstamp>
     </comp>
-    <comp ref="P11">
+    <comp ref="P10">
       <value>2x3 header strip R/A</value>
       <footprint>Pin_Headers:Pin_Header_Angled_2x03</footprint>
       <fields>
@@ -568,7 +470,7 @@
       <sheetpath names="/shutterPWM/" tstamps="/54E08E01/"/>
       <tstamp>55C120EA</tstamp>
     </comp>
-    <comp ref="C3">
+    <comp ref="C2">
       <value>10n</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
@@ -584,23 +486,6 @@
       <libsource lib="device" part="C"/>
       <sheetpath names="/shutterPWM/" tstamps="/54E08E01/"/>
       <tstamp>55C273E1</tstamp>
-    </comp>
-    <comp ref="R7">
-      <value>0R</value>
-      <footprint>Resistors_SMD:R_0805</footprint>
-      <fields>
-        <field name="Part Number">MCMR08X000 PTL</field>
-        <field name="Manufacturer">Multicomp</field>
-        <field name="Package">0805</field>
-        <field name="Supplier">Farnell</field>
-        <field name="Order Code">2073603</field>
-        <field name="Alt. Supplier">Mouser</field>
-        <field name="Alt. Order Code">667-ERJ-6GEY0R00V</field>
-        <field name="Note">0Ω 0805 resistor</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/shutterPWM/" tstamps="/54E08E01/"/>
-      <tstamp>55C2DF41</tstamp>
     </comp>
     <comp ref="D2">
       <value>LED RED</value>
@@ -638,6 +523,7 @@
     </comp>
     <comp ref="D5">
       <value>1N4148</value>
+      <footprint>Diodes_SMD:SOD-323</footprint>
       <fields>
         <field name="Part Number">1N4148WS</field>
         <field name="Manufacturer">Multicomp</field>
@@ -654,6 +540,7 @@
     </comp>
     <comp ref="D6">
       <value>1N4148</value>
+      <footprint>Diodes_SMD:SOD-323</footprint>
       <fields>
         <field name="Part Number">1N4148WS</field>
         <field name="Manufacturer">Multicomp</field>
@@ -778,33 +665,6 @@
         <pin num="6" name="P6" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="conn" part="CONN_02X06">
-      <description>Connector 02x06</description>
-      <footprints>
-        <fp>Pin_Header_Straight_2X06</fp>
-        <fp>Pin_Header_Angled_2X06</fp>
-        <fp>Socket_Strip_Straight_2X06</fp>
-        <fp>Socket_Strip_Angled_2X06</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_02X06</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="P2" type="passive"/>
-        <pin num="3" name="P3" type="passive"/>
-        <pin num="4" name="P4" type="passive"/>
-        <pin num="5" name="P5" type="passive"/>
-        <pin num="6" name="P6" type="passive"/>
-        <pin num="7" name="P7" type="passive"/>
-        <pin num="8" name="P8" type="passive"/>
-        <pin num="9" name="P9" type="passive"/>
-        <pin num="10" name="P10" type="passive"/>
-        <pin num="11" name="P11" type="passive"/>
-        <pin num="12" name="P12" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="device" part="D">
       <description>Diode</description>
       <footprints>
@@ -872,41 +732,6 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="jakub" part="MCP4728">
-      <description>12-Bit, Quad Digital-to-Analog Converter with EEPROM Memory</description>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">MCP4728</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VCC" type="input"/>
-        <pin num="2" name="SCL" type="input"/>
-        <pin num="3" name="SDA" type="BiDi"/>
-        <pin num="4" name="~LDAC" type="input"/>
-        <pin num="5" name="RDY/~BSY" type="openCol"/>
-        <pin num="6" name="VOUTA" type="output"/>
-        <pin num="7" name="VOUTB" type="output"/>
-        <pin num="8" name="VOUTC" type="output"/>
-        <pin num="9" name="VOUTD" type="output"/>
-        <pin num="10" name="GND" type="input"/>
-      </pins>
-    </libpart>
-    <libpart lib="jakub" part="PCA9306">
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">PCA9306</field>
-      </fields>
-      <pins>
-        <pin num="1" name="GND" type="power_in"/>
-        <pin num="2" name="VREF1" type="input"/>
-        <pin num="3" name="SCL1" type="BiDi"/>
-        <pin num="4" name="SDA1" type="BiDi"/>
-        <pin num="5" name="SDA2" type="BiDi"/>
-        <pin num="6" name="SCL2" type="BiDi"/>
-        <pin num="7" name="VREF2" type="input"/>
-        <pin num="8" name="EN" type="input"/>
-      </pins>
-    </libpart>
     <libpart lib="device" part="R">
       <description>Resistor</description>
       <footprints>
@@ -935,254 +760,198 @@
     </libpart>
   </libparts>
   <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
     <library logical="jakub">
       <uri>/home/jakub/KiCAD/share/library/contrib/jakub/jakub.lib</uri>
     </library>
-    <library logical="conn">
-      <uri>/usr/local/share/kicad/library/conn.lib</uri>
-    </library>
-    <library logical="device">
-      <uri>/usr/local/share/kicad/library/device.lib</uri>
-    </library>
   </libraries>
   <nets>
-    <net code="1" name="GND">
-      <node ref="P1" pin="3"/>
-      <node ref="P2" pin="3"/>
+    <net code="1" name="+3V3">
+      <node ref="P1" pin="13"/>
+      <node ref="P2" pin="13"/>
+    </net>
+    <net code="2" name="/shutterPWM/SH3_PWM">
+      <node ref="U1" pin="1"/>
+      <node ref="P7" pin="1"/>
+    </net>
+    <net code="3" name="/shutterPWM/SH4_PWM">
+      <node ref="U2" pin="1"/>
+      <node ref="P7" pin="2"/>
+    </net>
+    <net code="4" name="+12V">
+      <node ref="R5" pin="2"/>
+      <node ref="P1" pin="1"/>
+      <node ref="P1" pin="2"/>
+      <node ref="P2" pin="1"/>
+      <node ref="P2" pin="2"/>
+      <node ref="U1" pin="6"/>
+      <node ref="R3" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U2" pin="6"/>
+      <node ref="C4" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="P10" pin="6"/>
+      <node ref="P11" pin="6"/>
+    </net>
+    <net code="5" name="+2V5">
+      <node ref="P1" pin="5"/>
+      <node ref="P1" pin="6"/>
+      <node ref="P11" pin="2"/>
+      <node ref="P10" pin="2"/>
+      <node ref="P2" pin="6"/>
+      <node ref="P2" pin="5"/>
+    </net>
+    <net code="6" name="/SERVO3">
+      <node ref="P7" pin="5"/>
+      <node ref="P3" pin="2"/>
+    </net>
+    <net code="7" name="/SERVO4">
+      <node ref="P4" pin="2"/>
+      <node ref="P7" pin="6"/>
+    </net>
+    <net code="8" name="/SDA_5V">
+      <node ref="P9" pin="2"/>
+      <node ref="P8" pin="2"/>
+    </net>
+    <net code="9" name="/SCL_5V">
+      <node ref="P8" pin="1"/>
+      <node ref="P9" pin="1"/>
+    </net>
+    <net code="10" name="/shutterPWM/SH3">
+      <node ref="P7" pin="3"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="11" name="/shutterPWM/SH4">
+      <node ref="U2" pin="8"/>
+      <node ref="P7" pin="4"/>
+    </net>
+    <net code="12" name="GND">
+      <node ref="U2" pin="4"/>
       <node ref="C4" pin="1"/>
-      <node ref="P1" pin="4"/>
-      <node ref="P2" pin="4"/>
-      <node ref="P1" pin="14"/>
-      <node ref="P1" pin="12"/>
-      <node ref="P1" pin="11"/>
-      <node ref="P1" pin="8"/>
-      <node ref="P1" pin="7"/>
+      <node ref="C6" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="9"/>
       <node ref="U2" pin="9"/>
-      <node ref="P4" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="P1" pin="14"/>
+      <node ref="P1" pin="3"/>
+      <node ref="P1" pin="8"/>
+      <node ref="P1" pin="11"/>
+      <node ref="P1" pin="12"/>
+      <node ref="P1" pin="7"/>
+      <node ref="P2" pin="3"/>
+      <node ref="P2" pin="4"/>
       <node ref="P2" pin="7"/>
+      <node ref="P2" pin="14"/>
       <node ref="P2" pin="8"/>
       <node ref="P2" pin="11"/>
       <node ref="P2" pin="12"/>
-      <node ref="P2" pin="14"/>
-      <node ref="U3" pin="9"/>
-      <node ref="C7" pin="1"/>
-      <node ref="C3" pin="1"/>
-      <node ref="U3" pin="4"/>
-      <node ref="C5" pin="1"/>
-      <node ref="R2" pin="1"/>
-      <node ref="U1" pin="1"/>
-      <node ref="C1" pin="2"/>
-      <node ref="R1" pin="1"/>
-      <node ref="C2" pin="1"/>
-      <node ref="C8" pin="1"/>
-      <node ref="C6" pin="1"/>
-      <node ref="P5" pin="1"/>
-      <node ref="U2" pin="4"/>
-      <node ref="U4" pin="10"/>
+      <node ref="P1" pin="4"/>
+      <node ref="P4" pin="1"/>
+      <node ref="P3" pin="1"/>
     </net>
-    <net code="2" name="+12V">
-      <node ref="C4" pin="2"/>
-      <node ref="P1" pin="2"/>
-      <node ref="P1" pin="1"/>
-      <node ref="P12" pin="6"/>
-      <node ref="R5" pin="2"/>
-      <node ref="U3" pin="6"/>
-      <node ref="P11" pin="6"/>
-      <node ref="R6" pin="2"/>
-      <node ref="R4" pin="2"/>
-      <node ref="P2" pin="1"/>
-      <node ref="P2" pin="2"/>
-      <node ref="R3" pin="2"/>
-      <node ref="C5" pin="2"/>
-      <node ref="U2" pin="6"/>
+    <net code="13" name="+5VP">
+      <node ref="P4" pin="3"/>
+      <node ref="P2" pin="9"/>
+      <node ref="P1" pin="10"/>
+      <node ref="P1" pin="9"/>
+      <node ref="P3" pin="3"/>
+      <node ref="P2" pin="10"/>
+      <node ref="P11" pin="4"/>
+      <node ref="P10" pin="4"/>
     </net>
-    <net code="3" name="+2V5">
-      <node ref="P2" pin="5"/>
-      <node ref="P2" pin="6"/>
-      <node ref="P12" pin="2"/>
-      <node ref="P1" pin="5"/>
-      <node ref="P11" pin="2"/>
-      <node ref="P1" pin="6"/>
+    <net code="14" name="/SDA_3V3">
+      <node ref="P9" pin="3"/>
+      <node ref="P8" pin="3"/>
     </net>
-    <net code="4" name="Net-(P6-Pad3)">
+    <net code="15" name="/SCL_3V3">
+      <node ref="P9" pin="4"/>
+      <node ref="P8" pin="4"/>
+    </net>
+    <net code="16" name="Net-(P6-Pad3)">
       <node ref="P6" pin="3"/>
     </net>
-    <net code="5" name="/SERVO2">
-      <node ref="P5" pin="2"/>
-      <node ref="P3" pin="4"/>
-    </net>
-    <net code="6" name="+5VP">
-      <node ref="U4" pin="1"/>
-      <node ref="P1" pin="10"/>
-      <node ref="C1" pin="1"/>
-      <node ref="U1" pin="8"/>
-      <node ref="U1" pin="7"/>
-      <node ref="P1" pin="9"/>
-      <node ref="C8" pin="2"/>
-      <node ref="P12" pin="4"/>
-      <node ref="P4" pin="3"/>
+    <net code="17" name="Net-(P5-Pad3)">
       <node ref="P5" pin="3"/>
-      <node ref="P11" pin="4"/>
-      <node ref="P2" pin="9"/>
-      <node ref="P2" pin="10"/>
     </net>
-    <net code="7" name="/shutterPWM/SH3_PWM">
-      <node ref="U4" pin="8"/>
-      <node ref="P8" pin="1"/>
+    <net code="18" name="/shutterPWM/SHC_PWR">
+      <node ref="C5" pin="2"/>
+      <node ref="P10" pin="5"/>
+      <node ref="P10" pin="3"/>
+      <node ref="P10" pin="1"/>
+      <node ref="P5" pin="2"/>
+      <node ref="D5" pin="1"/>
     </net>
-    <net code="8" name="/shutterPWM/SH4_PWM">
-      <node ref="P8" pin="2"/>
-      <node ref="U4" pin="9"/>
-    </net>
-    <net code="9" name="/SH4">
-      <node ref="P8" pin="4"/>
-      <node ref="P3" pin="6"/>
-    </net>
-    <net code="10" name="/SERVO3">
-      <node ref="P3" pin="1"/>
-      <node ref="P8" pin="5"/>
-    </net>
-    <net code="11" name="/SERVO4">
-      <node ref="P8" pin="6"/>
-      <node ref="P3" pin="2"/>
-    </net>
-    <net code="12" name="/shutterPWM/SH1">
-      <node ref="P3" pin="7"/>
-      <node ref="U2" pin="8"/>
-    </net>
-    <net code="13" name="+3V3">
-      <node ref="P2" pin="13"/>
-      <node ref="U1" pin="2"/>
-      <node ref="P1" pin="13"/>
-    </net>
-    <net code="14" name="/shutterPWM/SH2">
-      <node ref="P3" pin="8"/>
-      <node ref="U3" pin="8"/>
-    </net>
-    <net code="15" name="/SH3">
-      <node ref="P8" pin="3"/>
-      <node ref="P3" pin="5"/>
-    </net>
-    <net code="16" name="Net-(P7-Pad3)">
-      <node ref="P7" pin="3"/>
-    </net>
-    <net code="17" name="/shutterPWM/SHA_PWR">
+    <net code="19" name="/shutterPWM/SHD_PWR">
       <node ref="C6" pin="2"/>
+      <node ref="D6" pin="1"/>
+      <node ref="P6" pin="2"/>
       <node ref="P11" pin="3"/>
       <node ref="P11" pin="1"/>
-      <node ref="D5" pin="1"/>
       <node ref="P11" pin="5"/>
-      <node ref="P6" pin="2"/>
     </net>
-    <net code="18" name="/shutterPWM/SHB_PWR">
-      <node ref="C7" pin="2"/>
-      <node ref="P12" pin="1"/>
-      <node ref="P12" pin="3"/>
-      <node ref="P12" pin="5"/>
-      <node ref="P7" pin="2"/>
-      <node ref="D6" pin="1"/>
-    </net>
-    <net code="19" name="/I2C/SCL_5V">
-      <node ref="U1" pin="6"/>
-      <node ref="P9" pin="1"/>
-      <node ref="U4" pin="2"/>
-      <node ref="P10" pin="1"/>
-    </net>
-    <net code="20" name="/I2C/SDA_5V">
-      <node ref="U4" pin="3"/>
-      <node ref="P9" pin="2"/>
-      <node ref="P10" pin="2"/>
-      <node ref="U1" pin="5"/>
-    </net>
-    <net code="21" name="/SERVO1">
-      <node ref="P4" pin="2"/>
-      <node ref="P3" pin="3"/>
-    </net>
-    <net code="22" name="/shutterPWM/SH_~LDAC">
-      <node ref="R7" pin="1"/>
-      <node ref="P3" pin="9"/>
-    </net>
-    <net code="23" name="/shutterPWM/SHA_O/C">
+    <net code="20" name="/shutterPWM/SHD_O/C">
+      <node ref="D6" pin="2"/>
       <node ref="U2" pin="5"/>
+      <node ref="P6" pin="1"/>
+      <node ref="D4" pin="1"/>
+    </net>
+    <net code="21" name="/shutterPWM/SHC_O/C">
       <node ref="D3" pin="1"/>
       <node ref="D5" pin="2"/>
-      <node ref="P6" pin="1"/>
+      <node ref="P5" pin="1"/>
+      <node ref="U1" pin="5"/>
     </net>
-    <net code="24" name="/shutterPWM/SHB_O/C">
-      <node ref="P7" pin="1"/>
-      <node ref="D4" pin="1"/>
-      <node ref="D6" pin="2"/>
-      <node ref="U3" pin="5"/>
-    </net>
-    <net code="25" name="/I2C/SCL_3V3">
-      <node ref="P9" pin="4"/>
-      <node ref="P3" pin="11"/>
-      <node ref="P10" pin="4"/>
-      <node ref="U1" pin="3"/>
-    </net>
-    <net code="26" name="/I2C/SDA_3V3">
-      <node ref="P10" pin="3"/>
-      <node ref="U1" pin="4"/>
-      <node ref="P3" pin="12"/>
-      <node ref="P9" pin="3"/>
-    </net>
-    <net code="27" name="Net-(P3-Pad10)">
-      <node ref="P3" pin="10"/>
-    </net>
-    <net code="28" name="/shutterPWM/SH2_PWM">
-      <node ref="U3" pin="1"/>
-      <node ref="U4" pin="7"/>
-    </net>
-    <net code="29" name="/shutterPWM/FB">
-      <node ref="D4" pin="2"/>
-      <node ref="R6" pin="1"/>
-    </net>
-    <net code="30" name="/shutterPWM/EB">
+    <net code="22" name="/shutterPWM/ED">
       <node ref="D2" pin="2"/>
       <node ref="R4" pin="1"/>
     </net>
-    <net code="31" name="/shutterPWM/OB">
-      <node ref="U3" pin="3"/>
-      <node ref="R2" pin="2"/>
+    <net code="23" name="/shutterPWM/FD">
+      <node ref="R6" pin="1"/>
+      <node ref="D4" pin="2"/>
     </net>
-    <net code="32" name="/shutterPWM/DB">
-      <node ref="C3" pin="2"/>
-      <node ref="U3" pin="2"/>
-    </net>
-    <net code="33" name="Net-(R7-Pad2)">
-      <node ref="R7" pin="2"/>
-      <node ref="U4" pin="4"/>
-    </net>
-    <net code="34" name="/shutterPWM/SH1_PWM">
-      <node ref="U2" pin="1"/>
-      <node ref="U4" pin="6"/>
-    </net>
-    <net code="35" name="/shutterPWM/ENG_B">
+    <net code="24" name="/shutterPWM/ENG_D">
       <node ref="D2" pin="1"/>
-      <node ref="U3" pin="7"/>
-    </net>
-    <net code="36" name="/shutterPWM/ENG_A">
-      <node ref="D1" pin="1"/>
       <node ref="U2" pin="7"/>
     </net>
-    <net code="37" name="/shutterPWM/EA">
+    <net code="25" name="/shutterPWM/DD">
+      <node ref="C2" pin="2"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="26" name="/shutterPWM/OD">
+      <node ref="R2" pin="2"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="27" name="/shutterPWM/DC">
+      <node ref="U1" pin="2"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="28" name="/shutterPWM/OC">
+      <node ref="U1" pin="3"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="29" name="/shutterPWM/ENG_C">
+      <node ref="U1" pin="7"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="30" name="/shutterPWM/EC">
       <node ref="D1" pin="2"/>
       <node ref="R3" pin="1"/>
     </net>
-    <net code="38" name="Net-(U4-Pad5)">
-      <node ref="U4" pin="5"/>
-    </net>
-    <net code="39" name="/shutterPWM/DA">
-      <node ref="U2" pin="2"/>
-      <node ref="C2" pin="2"/>
-    </net>
-    <net code="40" name="/shutterPWM/OA">
-      <node ref="R1" pin="2"/>
-      <node ref="U2" pin="3"/>
-    </net>
-    <net code="41" name="/shutterPWM/FA">
-      <node ref="R5" pin="1"/>
+    <net code="31" name="/shutterPWM/FC">
       <node ref="D3" pin="2"/>
+      <node ref="R5" pin="1"/>
     </net>
   </nets>
 </export>
