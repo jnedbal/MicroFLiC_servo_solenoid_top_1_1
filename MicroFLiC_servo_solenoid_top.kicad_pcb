@@ -14,8 +14,8 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal hide)
-    (31 B.Cu signal hide)
+    (0 F.Cu signal)
+    (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
@@ -641,7 +641,7 @@
     (fp_text reference P5 (at 6.096 5.588 270) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.12)))
     )
-    (fp_text value RCA_3 (at -1.016 0 360) (layer F.SilkS) hide
+    (fp_text value "RCA jack" (at -1.016 0 360) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 12 -4.8) (end 12 4.8) (layer F.SilkS) (width 0.15))
@@ -677,7 +677,7 @@
     (fp_text reference P6 (at 6.096 5.588 270) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.12)))
     )
-    (fp_text value RCA_3 (at 0 6.35 270) (layer F.SilkS) hide
+    (fp_text value "RCA jack" (at 0 6.35 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 12 -4.8) (end 12 4.8) (layer F.SilkS) (width 0.15))
@@ -712,7 +712,7 @@
     (fp_text reference P4 (at 7.112 0 360) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.12)))
     )
-    (fp_text value Jack_3.5mm_3pin (at 9.525 0 360) (layer F.SilkS) hide
+    (fp_text value "3.5mm jack" (at 9.525 0 360) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -5 3.1) (end -5 2.5) (layer F.SilkS) (width 0.15))
@@ -759,7 +759,7 @@
     (fp_text reference P3 (at 7.112 0 360) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.12)))
     )
-    (fp_text value Jack_3.5mm_3pin (at 9.525 0 360) (layer F.SilkS) hide
+    (fp_text value "3.5mm jack" (at 9.525 0 360) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start -5 3.1) (end -5 2.5) (layer F.SilkS) (width 0.15))

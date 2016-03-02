@@ -112,7 +112,7 @@ L Jack_3.5mm_3pin P3
 U 1 1 5569290E
 P 3550 4700
 F 0 "P3" H 3300 4700 60  0000 R CNN
-F 1 "Jack_3.5mm_3pin" H 3300 4800 60  0000 R CNN
+F 1 "3.5mm jack" H 3300 4800 60  0000 R CNN
 F 2 "jakub:MJ4435-R" H 3525 4700 60  0001 C CNN
 F 3 "" H 3525 4700 60  0000 C CNN
 F 4 "MJ4435-R" H 3550 4700 60  0001 C CNN "Part Number"
@@ -121,7 +121,8 @@ F 6 "R/A 3.5mm jack" H 3550 4700 60  0001 C CNN "Package"
 F 7 "Farnell" H 3550 4700 60  0001 C CNN "Supplier"
 F 8 "1638670" H 3550 4700 60  0001 C CNN "Order Code"
 F 9 "N/A" H 3550 4700 60  0001 C CNN "Alt. Supplier"
-F 10 "Right-angle SMD 3.5mm 3-pin jack" H 3550 4700 60  0001 C CNN "Note"
+F 10 "N/A" H 3550 4700 60  0001 C CNN "Alt. Order Code"
+F 11 "Right-angle SMD 3.5mm 3-pin jack" H 3550 4700 60  0001 C CNN "Note"
 	1    3550 4700
 	-1   0    0    1   
 $EndComp
@@ -246,7 +247,7 @@ L RCA_3 P6
 U 1 1 54E05655
 P 7700 2250
 F 0 "P6" H 7700 2450 60  0000 C CNN
-F 1 "RCA_3" H 7700 2050 60  0000 C CNN
+F 1 "RCA jack" H 7700 2050 60  0000 C CNN
 F 2 "jakub:PSG01544" H 7700 2250 60  0001 C CNN
 F 3 "" H 7700 2250 60  0000 C CNN
 F 4 "PSG01540" H 7700 2250 60  0001 C CNN "Part Number"
@@ -255,7 +256,8 @@ F 6 "R/A RCA jack" H 7700 2250 60  0001 C CNN "Package"
 F 7 "Farnell" H 7700 2250 60  0001 C CNN "Supplier"
 F 8 "1280698" H 7700 2250 60  0001 C CNN "Order Code"
 F 9 "N/A" H 7700 2250 60  0001 C CNN "Alt. Supplier"
-F 10 "Right-angle RCA jack" H 7700 2250 60  0001 C CNN "Note"
+F 10 "N/A" H 7700 2250 60  0001 C CNN "Alt. Order Code"
+F 11 "Right-angle RCA jack" H 7700 2250 60  0001 C CNN "Note"
 	1    7700 2250
 	1    0    0    -1  
 $EndComp
@@ -264,7 +266,7 @@ L RCA_3 P5
 U 1 1 54E05653
 P 7700 1750
 F 0 "P5" H 7700 1950 60  0000 C CNN
-F 1 "RCA_3" H 7700 1550 60  0000 C CNN
+F 1 "RCA jack" H 7700 1550 60  0000 C CNN
 F 2 "jakub:PSG01544" H 7700 1750 60  0001 C CNN
 F 3 "" H 7700 1750 60  0000 C CNN
 F 4 "PSG01540" H 7700 1750 60  0001 C CNN "Part Number"
@@ -273,7 +275,8 @@ F 6 "R/A RCA jack" H 7700 1750 60  0001 C CNN "Package"
 F 7 "Farnell" H 7700 1750 60  0001 C CNN "Supplier"
 F 8 "1280698" H 7700 1750 60  0001 C CNN "Order Code"
 F 9 "N/A" H 7700 1750 60  0001 C CNN "Alt. Supplier"
-F 10 "Right-angle RCA jack" H 7700 1750 60  0001 C CNN "Note"
+F 10 "N/A" H 7700 1750 60  0001 C CNN "Alt. Order Code"
+F 11 "Right-angle RCA jack" H 7700 1750 60  0001 C CNN "Note"
 	1    7700 1750
 	1    0    0    -1  
 $EndComp
@@ -388,7 +391,7 @@ L Jack_3.5mm_3pin P4
 U 1 1 556B7522
 P 3550 5600
 F 0 "P4" H 3300 5600 60  0000 R CNN
-F 1 "Jack_3.5mm_3pin" H 3300 5700 60  0000 R CNN
+F 1 "3.5mm jack" H 3300 5700 60  0000 R CNN
 F 2 "jakub:MJ4435-R" H 3525 5600 60  0001 C CNN
 F 3 "" H 3525 5600 60  0000 C CNN
 F 4 "MJ4435-R" H 3550 5600 60  0001 C CNN "Part Number"
@@ -397,7 +400,8 @@ F 6 "R/A 3.5mm jack" H 3550 5600 60  0001 C CNN "Package"
 F 7 "Farnell" H 3550 5600 60  0001 C CNN "Supplier"
 F 8 "1638670" H 3550 5600 60  0001 C CNN "Order Code"
 F 9 "N/A" H 3550 5600 60  0001 C CNN "Alt. Supplier"
-F 10 "Right-angle SMD 3.5mm 3-pin jack" H 3550 5600 60  0001 C CNN "Note"
+F 10 "N/A" H 3550 5600 60  0001 C CNN "Alt. Order Code"
+F 11 "Right-angle SMD 3.5mm 3-pin jack" H 3550 5600 60  0001 C CNN "Note"
 	1    3550 5600
 	-1   0    0    1   
 $EndComp

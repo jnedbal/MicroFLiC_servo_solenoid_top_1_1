@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/jakub/KiCAD/MicroFLiC_servo_solenoid_top_1_1/MicroFLiC_servo_solenoid_top.sch</source>
-    <date>Mon 29 Feb 2016 18:42:41 GMT</date>
+    <date>Wed 02 Mar 2016 11:48:44 GMT</date>
     <tool>Eeschema 4.0.2-4+6225~38~ubuntu14.04.1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -50,7 +50,7 @@
       <tstamp>54DF35DA</tstamp>
     </comp>
     <comp ref="P3">
-      <value>Jack_3.5mm_3pin</value>
+      <value>3.5mm jack</value>
       <footprint>jakub:MJ4435-R</footprint>
       <fields>
         <field name="Part Number">MJ4435-R</field>
@@ -59,6 +59,7 @@
         <field name="Supplier">Farnell</field>
         <field name="Order Code">1638670</field>
         <field name="Alt. Supplier">N/A</field>
+        <field name="Alt. Order Code">N/A</field>
         <field name="Note">Right-angle SMD 3.5mm 3-pin jack</field>
       </fields>
       <libsource lib="jakub" part="Jack_3.5mm_3pin"/>
@@ -117,7 +118,7 @@
       <tstamp>55698B6F</tstamp>
     </comp>
     <comp ref="P6">
-      <value>RCA_3</value>
+      <value>RCA jack</value>
       <footprint>jakub:PSG01544</footprint>
       <fields>
         <field name="Part Number">PSG01540</field>
@@ -126,6 +127,7 @@
         <field name="Supplier">Farnell</field>
         <field name="Order Code">1280698</field>
         <field name="Alt. Supplier">N/A</field>
+        <field name="Alt. Order Code">N/A</field>
         <field name="Note">Right-angle RCA jack</field>
       </fields>
       <libsource lib="jakub" part="RCA_3"/>
@@ -133,7 +135,7 @@
       <tstamp>54E05655</tstamp>
     </comp>
     <comp ref="P5">
-      <value>RCA_3</value>
+      <value>RCA jack</value>
       <footprint>jakub:PSG01544</footprint>
       <fields>
         <field name="Part Number">PSG01540</field>
@@ -142,6 +144,7 @@
         <field name="Supplier">Farnell</field>
         <field name="Order Code">1280698</field>
         <field name="Alt. Supplier">N/A</field>
+        <field name="Alt. Order Code">N/A</field>
         <field name="Note">Right-angle RCA jack</field>
       </fields>
       <libsource lib="jakub" part="RCA_3"/>
@@ -149,7 +152,7 @@
       <tstamp>54E05653</tstamp>
     </comp>
     <comp ref="P4">
-      <value>Jack_3.5mm_3pin</value>
+      <value>3.5mm jack</value>
       <footprint>jakub:MJ4435-R</footprint>
       <fields>
         <field name="Part Number">MJ4435-R</field>
@@ -158,6 +161,7 @@
         <field name="Supplier">Farnell</field>
         <field name="Order Code">1638670</field>
         <field name="Alt. Supplier">N/A</field>
+        <field name="Alt. Order Code">N/A</field>
         <field name="Note">Right-angle SMD 3.5mm 3-pin jack</field>
       </fields>
       <libsource lib="jakub" part="Jack_3.5mm_3pin"/>
@@ -532,7 +536,7 @@
         <field name="Order Code">1466524</field>
         <field name="Alt. Supplier">Mouser</field>
         <field name="Alt. Order Code">512-1N4148WS</field>
-        <field name="Note">Small signal SOD-323 diode</field>
+        <field name="Note">Optional small signal SOD-323 diode</field>
       </fields>
       <libsource lib="device" part="D"/>
       <sheetpath names="/shutterPWM/" tstamps="/54E08E01/"/>
@@ -549,7 +553,7 @@
         <field name="Order Code">1466524</field>
         <field name="Alt. Supplier">Mouser</field>
         <field name="Alt. Order Code">512-1N4148WS</field>
-        <field name="Note">Small signal SOD-323 diode</field>
+        <field name="Note">Optional small signal SOD-323 diode</field>
       </fields>
       <libsource lib="device" part="D"/>
       <sheetpath names="/shutterPWM/" tstamps="/54E08E01/"/>
@@ -760,14 +764,14 @@
     </libpart>
   </libparts>
   <libraries>
+    <library logical="jakub">
+      <uri>/home/jakub/KiCAD/share/library/contrib/jakub/jakub.lib</uri>
+    </library>
     <library logical="device">
       <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
     <library logical="conn">
       <uri>/usr/share/kicad/library/conn.lib</uri>
-    </library>
-    <library logical="jakub">
-      <uri>/home/jakub/KiCAD/share/library/contrib/jakub/jakub.lib</uri>
     </library>
   </libraries>
   <nets>

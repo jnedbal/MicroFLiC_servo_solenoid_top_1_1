@@ -792,7 +792,7 @@ F 7 "Farnell" H 5100 2300 60  0001 C CNN "Supplier"
 F 8 "1466524" H 5100 2300 60  0001 C CNN "Order Code"
 F 9 "Mouser" H 5100 2300 60  0001 C CNN "Alt. Supplier"
 F 10 "512-1N4148WS" H 5100 2300 60  0001 C CNN "Alt. Order Code"
-F 11 "Small signal SOD-323 diode" H 5100 2300 60  0001 C CNN "Note"
+F 11 "Optional small signal SOD-323 diode" H 5100 2300 60  0001 C CNN "Note"
 	1    5100 2300
 	0    1    1    0   
 $EndComp
@@ -811,7 +811,7 @@ F 7 "Farnell" H 5100 5500 60  0001 C CNN "Supplier"
 F 8 "1466524" H 5100 5500 60  0001 C CNN "Order Code"
 F 9 "Mouser" H 5100 5500 60  0001 C CNN "Alt. Supplier"
 F 10 "512-1N4148WS" H 5100 5500 60  0001 C CNN "Alt. Order Code"
-F 11 "Small signal SOD-323 diode" H 5100 5500 60  0001 C CNN "Note"
+F 11 "Optional small signal SOD-323 diode" H 5100 5500 60  0001 C CNN "Note"
 	1    5100 5500
 	0    1    1    0   
 $EndComp
