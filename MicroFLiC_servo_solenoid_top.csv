@@ -1,9 +1,9 @@
 Reference, Quantity, Value, Footprint, Datasheet, Part Number, Manufacturer, Package, Supplier, Order Code, Alt. Supplier, Alt. Order Code, Note
 C1 C2 ,2,10n,Capacitors_SMD:C_0805,,MCU0805R103KCT,Multicomp,0805,Farnell,9406352,Mouser,710-885012207092,10nF/50V X7R 0805 ceramic capacitor
 C3 C4 C5 C6 ,4,4u7/25V,Capacitors_SMD:C_0805,,GRM21BR61E475MA12L,Murata,0805,Farnell,2362111,Mouser,81-GRM21BR61E475MA2L,4.7μF/25V X5R 0805 ceramic capacitor
-D1 D2 ,2,LED RED,LEDs:LED-1206,,HSMS-C150,Lumex,1206,Farnell,2497366,Mouser,630-HSMS-C150,Red 1206 LED
-D3 D4 ,2,LED YELLOW,LEDs:LED-1206,,HSMY-C150,Avago,1206,Farnell,2497382,Mouser,630-HSMY-C150,Yellow 1206 LED
-D5 D6 ,2,1N4148,Diodes_SMD:SOD-323,,1N4148WS,Multicomp,SOD-323,Farnell,1466524,Mouser,512-1N4148WS,Optional small signal SOD-323 diode
+D1 D2 ,2,LED RED,LEDs:LED-1206,,HSMS-C150,Broadcom,1206,Farnell,2497366,Mouser,630-HSMS-C150,Red 1206 LED
+D3 D5 ,2,LED YELLOW,LEDs:LED-1206,,HSMY-C150,Broadcom,1206,Farnell,2497382,Mouser,630-HSMY-C150,Yellow 1206 LED
+D4 D6 D7 D8 ,4,1N4148,jakub:SOD-323,,1N4148WS,Multicomp,SOD-323,Farnell,1466524,Mouser,512-1N4148WS,Optional small signal SOD-323 diode
 P1 ,1,1x14 socket strip,jakub:ESQ-114-33-G-S,,MC34735,Multicomp,SIL-14,Farnell,1593421,Mouser,855-M20-9991446,1x14 header strip
 P10 P11 ,2,2x3 header strip R/A,Pin_Headers:Pin_Header_Angled_2x03,,2213R-06G,Multicomp,DIL-6,Farnell,1593449,Mouser,517-9612065604AR,2x3 right-angle header strip
 P2 ,1,1x14 header strip,Pin_Headers:Pin_Header_Straight_1x14,,ESQ-114-33-G-S,Samtec,SIL-14,Farnell,1930609,Samtec,ESQ-114-33-G-S,1x14 ESQ series elevated socket strip
@@ -13,5 +13,6 @@ P7 ,1,1x6 header strip,Pin_Headers:Pin_Header_Straight_1x06,,ESQ-106-33-G-S,Samt
 P8 ,1,1x4 header strip,Pin_Headers:Pin_Header_Straight_1x04,,M20-9990445,Harwin,SIL-4,Farnell,1926221,Mouser,855-M20-9990445,1x4 header strip
 P9 ,1,1x4 socket strip,jakub:ESQ-104-33-G-S,,ESQ-104-33-G-S,Samtec,SIL-4,Farnell,1928522,Samtec,ESQ-104-33-G-S,1x4 ESQ series elevated socket strip
 R1 R2 ,2,270k,Resistors_SMD:R_0805,,MCSR08X2703FTL,Multicomp,0805,Farnell,2074426,Mouser,ERJ-6ENF2703V,270kΩ/1% 0805 resistor
-R3 R4 R5 R6 ,4,10k,Resistors_SMD:R_0805,,MCMR08X1002FTL,Multicomp,0805,Farnell,2073607,Mouser,71-CRCW0805-10K-E3,10kΩ/1% 0805 resistor
+R3 R4 ,2,10k,Resistors_SMD:R_0805,,MCMR08X1002FTL,Multicomp,0805,Farnell,2073607,Mouser,71-CRCW0805-10K-E3,10kΩ/1% 0805 resistor
+R5 R6 ,2,3k,Resistors_SMD:R_0805,,MC01W080513K,Multicomp,0805,Farnell,9332995,Mouser,667-ERJ-6GEYJ302V,3kΩ/1% 0805 resistor
 U1 U2 ,2,DRV103,Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm,,DRV103UG4,Texas Instruments,SOIC-8,Farnell,1206892,Mouser,595-DRV103UG4,PWM low-side driver for solenoids
